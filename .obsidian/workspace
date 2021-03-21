@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "9aab513eb5281cdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "94368d23a74e54d5",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Characters/Alan Alyth.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e4017ffce477816",
+    "type": "split",
+    "children": [
+      {
+        "id": "69c76daf52f6607d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c81d660e2c68ac73",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b16ec8d3b458618",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff5cd6b18ec0ef86",
+    "type": "split",
+    "children": [
+      {
+        "id": "36b3ff9a292f9202",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78ce8a5ee82ae385",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Characters/Alan Alyth.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Characters/Alan Alyth.md",
+    "Characters/Rungreda Kragmane.md",
+    "Characters/Tarrin Araric.md",
+    "Scenarios/Additional Resources/Rumors of Elturel.md",
+    "Scenarios/1 The Beginning/1 The Beginning.md",
+    "Characters/Chahra Shav.md",
+    "Characters/Ziem Shav.md",
+    "Characters/Generic/Thug.md",
+    "Scenarios/3 Vanthampur Investigations/Investigating the Murders.md",
+    "Scenarios/3 Vanthampur Investigations/3 Vanthampur Investigations.md"
+  ]
+}
