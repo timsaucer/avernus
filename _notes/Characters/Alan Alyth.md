@@ -1,5 +1,6 @@
 ---
 aliases: []
+title: Alan Alyth
 tags: []
 cssclasses: []
 ---

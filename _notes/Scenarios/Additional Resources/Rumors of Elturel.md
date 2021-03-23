@@ -1,3 +1,10 @@
+---
+aliases: [beginning]
+title: Rumors of Elturel
+tags: []
+cssclass: []
+---
+
 # Rumors of what Happened to Elturel
 
 ## **ELTUREL LIVES!**

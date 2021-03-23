@@ -1,5 +1,6 @@
 ---
 aliases: []
+title: Chahra Shav
 tags: []
 cssclass: []
 ---
@@ -20,4 +21,4 @@ A middle aged woman, slightly overweight with kind eyes and shoulder length hair
 Chahra is the mother to six children ranging from ages four to sixteen. She's a life long resident of the outskirts of Elturel where she is mostly a housewife and her husband is a carpenter. She enjoys raising children and feels it is her most important job in life, but she is also constantly tired from doing it.
 
 ## Key Info
-- Refugee from Elturel, fleeing to Baldur's Gate. [[../Scenarios/1 The Beginning/The Beginning]]
+- Refugee from Elturel, fleeing to Baldur's Gate. [[The Beginning]]

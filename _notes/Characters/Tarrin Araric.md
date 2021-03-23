@@ -1,5 +1,6 @@
 ---
 aliases: []
+title: Tarrin Araric
 tags: []
 cssclass: []
 ---
@@ -21,6 +22,6 @@ Quark from Star Trek DS9
 Tarrin comes from a moderatey wealthy family and works in the wine selling business. He was returning from a small vacation when Elturel disappeared. He decided to go to Baldur's Gate for protection.
 
 ## Key Info
-- Refugee from Elturel on his way to Baldur's Gate. [[../Scenarios/1 The Beginning/The Beginning]]
+- Refugee from Elturel on his way to Baldur's Gate. [[The Beginning]]
 - Knows how to get things - has many contacts.
 - Wine seller primarily but always looking for a side hussle.

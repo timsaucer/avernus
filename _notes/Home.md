@@ -1,10 +1,3 @@
----
-title: Decent into Avernus
-tags: []
-toc: true
-season: winter
----
-
 # Descent into Avernus
 
 ## Links

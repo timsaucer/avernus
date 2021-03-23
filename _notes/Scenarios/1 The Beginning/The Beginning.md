@@ -1,8 +1,8 @@
 ---
+aliases: [beginning]
 title: The Beginning
 tags: []
-toc: true
-season: winter
+cssclass: []
 ---
 
 Main: [[Main]]
@@ -12,8 +12,8 @@ Related: [[Related Page]]
 
 ## Links
 
-- Official Chapter https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#EvilinBaldursGate
-- Alexandrian Remix https://thealexandrian.net/wordpress/44221/roleplaying-games/remixing-avernus-part-1-the-beginning
+- [Official Chapter](https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#EvilinBaldursGate)
+- [Alexandrian Remix](https://thealexandrian.net/wordpress/44221/roleplaying-games/remixing-avernus-part-1-the-beginning)
 
 ## Strong Start
 (Refugees along the road version of Alexandrian).

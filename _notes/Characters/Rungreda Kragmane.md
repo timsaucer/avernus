@@ -1,5 +1,6 @@
 ---
 aliases: []
+title: Rungreda Kragmane
 tags: []
 cssclass: []
 ---
@@ -21,6 +22,6 @@ Hagrid from Harry Potter
 Rungreda runs trade caravans between Baldur's Gate and Elturel, so she knows this route extremely well. Most of the time she travels by the river, but her boat and all her goods were stolen from her. She is traveling to Baldur's Gate where she will use her friends and contacts there to live until she figures out what to do next.
 
 ## Key Info
-- Refugee from Elturel, was traveling by boat when it disappeared. [[../Scenarios/1 The Beginning/The Beginning]]
+- Refugee from Elturel, was traveling by boat when it disappeared. [[The Beginning]]
 - Thugs stole all her posessions and boat at swordpoint.
 

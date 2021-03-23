@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "9aab513eb5281cdc",
+    "id": "11a64500c784cd69",
     "type": "split",
     "children": [
       {
-        "id": "94368d23a74e54d5",
+        "id": "48534d2f11ab0f98",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "_notes/Scenarios/1 The Beginning/The Beginning.md",
             "mode": "source"
           }
         }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1e4017ffce477816",
+    "id": "6db0089c9ada9ff4",
     "type": "split",
     "children": [
       {
-        "id": "69c76daf52f6607d",
+        "id": "1fe9c3087498eb95",
         "type": "tabs",
         "children": [
           {
-            "id": "c81d660e2c68ac73",
+            "id": "105c919f5b56ad17",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "4b16ec8d3b458618",
+            "id": "4a8dce87543d23a0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "ff5cd6b18ec0ef86",
+    "id": "8b1700b0319baef1",
     "type": "split",
     "children": [
       {
-        "id": "36b3ff9a292f9202",
+        "id": "07e190b8e312c027",
         "type": "tabs",
         "children": [
           {
-            "id": "78ce8a5ee82ae385",
+            "id": "43271d9d30e9d3bd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_notes/Scenarios/1 The Beginning/The Beginning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "README.md",
-    "notes.md",
-    "index.md",
-    "dates.md",
-    "about.md",
     "_notes/Scenarios/1 The Beginning/The Beginning.md",
-    "_notes/How-to-setup-this-site.md",
-    "tags.md",
-    "_notes/Obsidian integration.md",
-    "_notes/Home.md"
+    "_notes/Scenarios/Additional Resources/Rumors of Elturel.md",
+    "_notes/Scenarios/1 The Beginning/1 The Beginning.md",
+    "_notes/Characters/Ziem Shav.md",
+    "_notes/Characters/Tarrin Araric.md",
+    "_notes/Characters/Rungreda Kragmane.md",
+    "_notes/Characters/Flame Zodge.md",
+    "_notes/Characters/Alan Alyth.md",
+    "_notes/Characters/Chahra Shav.md",
+    "about.md"
   ]
 }
