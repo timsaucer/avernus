@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Scenarios/1 The Beginning/The Beginning.md",
+            "file": "_notes/Home.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Scenarios/1 The Beginning/The Beginning.md",
+                "file": "_notes/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "_notes/Home.md",
+    "_notes/Scenarios/1 The Beginning/The Beginning.md",
+    "_notes/How to use the special features.md",
+    "_site/notes.md",
+    "_site/notes.png",
+    "_site/README.md",
     "_notes/Scenarios/1 The Beginning/1 The Beginning.md",
     "_notes/The Beginning.md",
-    "_notes/Home.md",
     "Characters/Alan Alyth.md",
-    "Characters/Rungreda Kragmane.md",
-    "Characters/Tarrin Araric.md",
-    "Scenarios/Additional Resources/Rumors of Elturel.md",
-    "Scenarios/1 The Beginning/1 The Beginning.md",
-    "Characters/Chahra Shav.md",
-    "Characters/Ziem Shav.md"
+    "Characters/Rungreda Kragmane.md"
   ]
 }

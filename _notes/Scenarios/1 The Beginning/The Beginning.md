@@ -1,6 +1,6 @@
 ---
 title: The Beginning
-tags: scenario
+tags: []
 toc: true
 season: winter
 ---
