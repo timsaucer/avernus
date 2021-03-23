@@ -82,4 +82,4 @@ Once they agree to the deal give them additional information:
 ## Level Up
 After signing the contract with Flame Zodge:
 
-![Level Up](/assets/img/level-up-image.jpeg)
+![Level Up](/avernus/assets/img/level-up-image.jpeg)
