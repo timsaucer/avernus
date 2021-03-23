@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Characters/Alan Alyth.md",
+            "file": "_notes/Scenarios/1 The Beginning/The Beginning.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Characters/Alan Alyth.md",
+                "file": "_notes/Scenarios/1 The Beginning/The Beginning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "_notes/Scenarios/1 The Beginning/1 The Beginning.md",
+    "_notes/The Beginning.md",
+    "_notes/Home.md",
     "Characters/Alan Alyth.md",
     "Characters/Rungreda Kragmane.md",
     "Characters/Tarrin Araric.md",
     "Scenarios/Additional Resources/Rumors of Elturel.md",
     "Scenarios/1 The Beginning/1 The Beginning.md",
     "Characters/Chahra Shav.md",
-    "Characters/Ziem Shav.md",
-    "Characters/Generic/Thug.md",
-    "Scenarios/3 Vanthampur Investigations/Investigating the Murders.md",
-    "Scenarios/3 Vanthampur Investigations/3 Vanthampur Investigations.md"
+    "Characters/Ziem Shav.md"
   ]
 }

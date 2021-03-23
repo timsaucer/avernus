@@ -1,40 +1,53 @@
-title:               My digital garden
-include:             ['_pages']
-exclude:             ['_includes/notes_graph.json']
-# You may need to change the base URL depending on your deploy configuration.
-# Specifically, when using GitHub Pages, the baseurl should point to where GitHub
-# Pages deploys your repository (which is usually the repository name).
-baseurl:             ''
+title: notenote.link
+name: My linked notebook
+user_description: notenote.link
+notes_url: "https://notenote.link.netlify.app"
+profile_pic: /assets/img/profile.png
+favicon: /assets/img/favicon.png
+copyright_name: MIT
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://notenote.link.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+encoding: utf-8
 
-# If you are using a host that cannot resolve URLs that do
-# not end with .html (such as Neocities), set this to 'true'.
-use_html_extension:  false
-
-# Set to `true` to open non-internal links in new tabs, or
-# set to `false` to open non-internal links in current tab.
-open_external_links_in_new_tab: true
-
-permalink:           pretty
-relative_permalinks: false
-
+# Build settings
+theme: null
 plugins:
-  - jekyll-last-modified-at
+  - jekyll-feed 
+  - jekyll-sitemap
+  - jekyll-toc
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: null
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  syntax_highlighter: rouge
+
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  style: compressed
 
 collections:
-  notes:
-    output: true
-    permalink: /:slug
+    notes:
+      output: true
+      permalink: /notes/:title
+
+toc:
+  max_level: 3
 
 defaults:
   - scope:
-      path: "**/*"
+      path: ""
+      type: posts
     values:
-      layout: "default"
+      layout: post
+      permalink: /posts/:title
+      content-type: post
   - scope:
-      path: "_notes/**/*.md"
+      path: ""
+      type: notes
     values:
-      layout: "note"
+      layout: post
+      content-type: notes
