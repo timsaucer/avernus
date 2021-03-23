@@ -10,7 +10,7 @@ url: "https://timsaucer.github.io/avernus/" # the base hostname & protocol for y
 encoding: utf-8
 
 # Build settings
-theme: minima
+theme: null
 plugins:
   - jekyll-feed 
   - jekyll-sitemap
