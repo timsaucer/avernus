@@ -1,20 +1,11 @@
 ---
-layout: page
+layout: home
 title: About
 permalink: /about/
 ---
 
-Test about data.
+These are my notes for running Baldur's Gate: Descent into Avernus.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am in the process of merging the official module, the Alexandrian remix, and the Lazy DM's approach to make it easier for me to run it the way I like it.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+This website is mostly so I can share my progress with a fellow DM who is running the same campaign in parallel.

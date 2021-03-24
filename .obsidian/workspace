@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "about.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,10 +86,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "about.md",
     "index.md",
     "notes.md",
     "_notes/Home.md",
-    "about.md",
     "_notes/Scenarios/1 The Beginning/The Road To Baldur's Gate.md",
     "_notes/Scenarios/1 The Beginning/The Beginning.md",
     "_notes/Templates/Scenario.md",
