@@ -1,5 +1,6 @@
 ---
 aliases: []
+title: []
 tags: []
 cssclass: []
 ---
@@ -10,9 +11,8 @@ Related: [[Related Page]]
 #
 
 ## Links
-
-- Official Chapter
-- Alexandrian Remix
+- [Official Chapter](https://www.dndbeyond.com/sources/bgdia)
+- [Alexandrian Remix](https://thealexandrian.net/wordpress/44214/roleplaying-games/remixing-avernus)
 
 ## Strong Start
 

@@ -1,23 +1,30 @@
-# Descent into Avernus
+---
+aliases: []
+title: Descent into Avernus
+tags: []
+cssclass: []
+---
 
 ## Links
-D&D Beyond Campaign https://www.dndbeyond.com/campaigns/1825272
 
-Official Source Book https://www.dndbeyond.com/sources/bgdia
+[D&D Beyond Campaign](https://www.dndbeyond.com/campaigns/1825272)
 
-Alexandrian Remix https://thealexandrian.net/wordpress/44214/roleplaying-games/remixing-avernus
+[Official Source Book](https://www.dndbeyond.com/sources/bgdia)
+
+[Alexandrian Remix](https://thealexandrian.net/wordpress/44214/roleplaying-games/remixing-avernus)
 
 ## Players
 
-Forith (Simon) https://www.dndbeyond.com/profile/Ferian/characters/46077442
+[Forith (Simon)](https://www.dndbeyond.com/profile/Ferian/characters/46077442)
 
-Ewan 
+Ewan
 
-Bob (Devin) https://www.dndbeyond.com/profile/Bobbert67/characters/46492309
+[Bob (Devin)](https://www.dndbeyond.com/profile/Bobbert67/characters/46492309)
 
-Withre (Tsukasa) https://www.dndbeyond.com/profile/tsukasa_gamer/characters/46491474
+[Withre (Tsukasa)](https://www.dndbeyond.com/profile/tsukasa_gamer/characters/46491474)
 
 ## Parts broken down by Alexandrian
+
 - [[The Beginning]]
 - [[2 Elfsong Tavern]]
 - [[3 Vanthampur Investigations]]
@@ -25,7 +32,7 @@ Withre (Tsukasa) https://www.dndbeyond.com/profile/tsukasa_gamer/characters/4649
 - [[Poisoned Poseidon]]
 - [[Dungeon of the Dead Three]]
 - [[Trafficking Amrik]]
-- [[Vanthampur Manor]]
+- [[Vanthampur Manor]] 
 - Part 3J: The Portyr Assassination
 - Part 4A: The Road to Candlekeep
 - Part 4B: The Road to Avernus
