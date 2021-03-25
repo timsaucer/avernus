@@ -28,6 +28,8 @@ twitter_username: timsaucer
 github_username:  timsaucer
 favicon: /avernus/assets/img/favicon.png
 
+exclude: ['_includes/notes_graph.json', '_notes/Templates']
+
 # Build settings
 theme: minima
 plugins:
