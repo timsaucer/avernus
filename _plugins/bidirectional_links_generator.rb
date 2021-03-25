@@ -74,22 +74,25 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       end
 
       # Nodes: Graph
-      graph_nodes << {
-        id: note_id_from_note(current_note),
-        tags: tags_from_note(current_note),
-        path: "#{site.baseurl}#{current_note.url}#{link_extension}",
-        label: current_note.data['title'],
-      } unless current_note.path.include?('_notes/index.html')
+      if note_is_scenario(current_note)
+        graph_nodes << {
+          id: note_id_from_note(current_note),
+          path: "#{site.baseurl}#{current_note.url}#{link_extension}",
+          label: current_note.data['title'],
+        } unless current_note.path.include?('_notes/index.html')
+      end
 
       # Edges: Jekyll
       current_note.data['backlinks'] = notes_linking_to_current_note
 
       # Edges: Graph
       notes_linking_to_current_note.each do |n|
-        graph_edges << {
-          source: note_id_from_note(n),
-          target: note_id_from_note(current_note),
-        }
+        if note_is_scenario(n) && note_is_scenario(current_note)
+          graph_edges << {
+            source: note_id_from_note(n),
+            target: note_id_from_note(current_note),
+          }
+        end
       end
     end
 
@@ -99,8 +102,8 @@ class BidirectionalLinksGenerator < Jekyll::Generator
     }))
   end
 
-  def tags_from_note(note)
-    note.data['tags']
+  def note_is_scenario(note)
+    note.data['tags'].include?('scenario') 
   end
 
   def note_id_from_note(note)
