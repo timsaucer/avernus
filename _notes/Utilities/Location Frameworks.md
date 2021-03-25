@@ -1,4 +1,6 @@
-# Creating Locations
+---
+title: Location Frameworks
+---
 
 ## The Three F's
 

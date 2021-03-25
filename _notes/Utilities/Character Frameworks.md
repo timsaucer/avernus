@@ -1,6 +1,6 @@
- 
-
-## NPC Character Frameworks
+---
+title: Character Frameworks
+---
 
 1. Jonas Quinn, StarGate SG1
 2. Han Solo, Star Wars

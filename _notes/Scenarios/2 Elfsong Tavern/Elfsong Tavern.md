@@ -5,7 +5,7 @@ title: Elfsong Tavern
 cssclass: []
 ---
 
-Main: [[Campaigns]]
+Main: [[Descent into Avernus]]
 Related: [[Related Page]]
 
 ## Links
@@ -30,7 +30,7 @@ Description of your strong start.
 - Alan Alyth, the owner of the tavern, might tell about his grandmother, Lady Alyth Eldendara, heard the song just once and bought the tavern that very night. The former owner agreed only on the condition that he would always have a seat in the tavern where he could come each night to listen to the song. Theomon’s Chair still sits in the corner, sacrosanct and unused by any patron.
 - A first-timer breaks down into tears upon hearing the song is usually embraced and comforted by the nearest regular patron.
 - NPCs should spread more [[Rumors of Elturel]]. Some are anti-refugees and some want to help them.
-- Tarina has seen the cultists around the Poisoned Poseidon in the Brampton Docks.
+- Tarina has seen the cultists around the [[Poisoned Poseidon]] in the Brampton Docks.
 
 ## Fantastic Locations
 

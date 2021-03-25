@@ -1,13 +1,12 @@
 ---
 aliases: []
 tags: [scenario]
+title: Trafficking Amrik
 cssclass: []
 ---
 
-Main: [[Campaigns]]
-Related: [[Related Page]]
-
-#
+Main: [[Descent into Avernus]]
+Related: [[Vanthampur Investigations]]
 
 ## Links
 

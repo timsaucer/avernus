@@ -25,10 +25,11 @@ Ewan
 
 ## Parts broken down by Alexandrian
 
-- [[The Road To Baldur's Gate]]
-- [[Zodge's Deal]]
+- [[The Road To Baldurs Gate]]
+- [[Meeting Zodge]]
 - [[Vanthampur Investigations]]
 - [[Vanthampur Manor]] 
+- [[The Road To Baldurs Gate]]
 - Part 3J: The Portyr Assassination
 - Part 4A: The Road to Candlekeep
 - Part 4B: The Road to Avernus

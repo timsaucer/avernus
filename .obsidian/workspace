@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Scenarios/2 Elfsong Tavern/Elfsong Tavern.md",
+            "file": "_notes/Characters/Generic/Thug.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Scenarios/2 Elfsong Tavern/Elfsong Tavern.md",
+                "file": "_notes/Characters/Generic/Thug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "_notes/Scenarios/2 Elfsong Tavern/2 Elfsong Tavern.md",
-    "_notes/Scenarios/1 The Beginning/Zodge's Deal.md",
-    "_notes/Scenarios/3 Vanthampur Investigations/3 Vanthampur Investigations.md",
-    "_notes/index.md",
+    "_notes/Characters/Generic/Thug.md",
+    "_notes/Scenarios/1 The Beginning/Meeting Zodge.md",
+    "_notes/Characters/Stat Blocks/Veteran.md",
     "_notes/Scenarios/1 The Beginning/The Road To Baldur's Gate.md",
-    "_notes/Scenarios/1 The Beginning/The Beginning.md",
-    "_notes/Scenarios/1 The Beginning/Untitled.md",
-    "about.md",
-    "index.md",
-    "notes.md"
+    "_notes/index.md",
+    "_notes/Scenarios/1 The Beginning/Zodge's Deal.md",
+    "_notes/Scenarios/3 Vanthampur Investigations/Vanthampur Investigations.md",
+    "_notes/Scenarios/3 Vanthampur Investigations/Investigating the Murders.md",
+    "assets/img/level-up-image.jpeg",
+    "_notes/Utilities/Character Frameworks.md"
   ]
 }

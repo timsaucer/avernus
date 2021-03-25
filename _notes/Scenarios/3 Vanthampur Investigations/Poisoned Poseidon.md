@@ -1,13 +1,13 @@
 ---
 aliases: []
 tags: [scenario]
+title: Poisoned Poseidon
 cssclass: []
 ---
 
-Main: [[Campaigns]]
-Related: [[Related Page]]
+Main: [[Descent into Avernus]]
+Related: [[Vanthampur Investigations]]
 
-#
 
 ## Links
 

@@ -14,7 +14,6 @@
 {%- endif -%}
 {% include toc.html html=content %}
 <div class="content">
-
     {%- assign content_array = content | split:'[[' -%}
     {%- assign external_link_delimiter = '::' -%}
     {%- assign internal_link_delimiter = '|' -%}
@@ -24,7 +23,6 @@
     {%- assign link_joiner_delimiter = '$@' -%}
 
     {%- for item in content_array -%}
-
         {%- if forloop.index > 1 -%}
             {%- assign start = item | split:']]' -%}
 
@@ -129,7 +127,6 @@
 
     {%- endfor -%}
 
-
     {%- assign internal_url_alt_array = internal_urls_alt | split:link_joiner_delimiter -%}
     {%- assign internal_link_alt_array = internal_links_alt | split:link_joiner_delimiter -%}
     {%- assign internal_titles_alt_array = internal_titles_alt | split:link_joiner_delimiter -%}
@@ -226,7 +223,6 @@
                 {%- assign noteType = "mn-right" -%}
                 {%- assign toggleLabel = "&#8853;" -%}
             {%- endif -%}
-
 
             {%- if url contains "transclude" -%}
                 {%- assign post = site.notes | where: 'title',title -%}

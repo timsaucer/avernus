@@ -1,14 +1,12 @@
 ---
 aliases: [beginning]
-title: Zodge's Deal
+title: Meeting Zodge
 tags: [scenario]
 cssclass: []
 ---
 
-Main: [[Main]]
+Main: [[Descent into Avernus]]
 Related: [[Related Page]]
-
-# Zodge's Deal
 
 ## Links
 
@@ -47,6 +45,6 @@ Once they agree to the deal give them additional information:
 ## Level Up
 After signing the contract with Flame Zodge:
 
-![Level Up](/avernus/assets/img/level-up-image.jpeg)
+![Level Up](/assets/img/level-up-image.jpeg)
 
 The next logical places for the Adventurers to head is either [[Elfsong Tavern]] to talk to [[Tarina]] or [[Investigating the Murders]] by visiting the refugees or the dumping site for the bodies.

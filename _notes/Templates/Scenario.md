@@ -5,10 +5,9 @@ tags: []
 cssclass: []
 ---
 
-Main: [[Campaigns]]
+Main: [[Descent into Avernus]]
 Related: [[Related Page]]
 
-#
 
 ## Links
 - [Official Chapter](https://www.dndbeyond.com/sources/bgdia)
