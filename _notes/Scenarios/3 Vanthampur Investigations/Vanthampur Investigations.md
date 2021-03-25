@@ -14,7 +14,7 @@ Related: [[Related Page]]
 - Alexandrian Remix https://thealexandrian.net/wordpress/44377/roleplaying-games/remixing-avernus-part-3c-the-vanthampur-revelations
 
 ## What is happening
-![What is happening](/assets/img/vanthampur/vathanmpur-what-is-happening.png)
+![[assets/img/vanthampur/vathanmpur-what-is-happening.png]]
 
 -   Amrik Vanthampur has set himself up as a black market resource for smuggling refugees into Baldur’s Gate. His agents circulate through the refugee camps outside of the city and he holds court at the Low Lantern, fleecing refugees who want to bring their loved ones inside the city. This will be described in [[Trafficking Amrik]].
 -   This puts Amrik in a position to identify and track refugees of the desired bloodlines.
@@ -23,8 +23,7 @@ Related: [[Related Page]]
 -   The actual murders are carried out by Dead Three cultists operating out of the [[Poisoned Poseidon]]. Once a target’s location and identity have been confirmed, the surveillance teams will report that information to the [[Poisoned Poseidon]].
 -   A [[Poisoned Poseidon]] strike team will then kidnap the victim, bring them back to the slaughterhouse, kill them, and dump the body in Insight Park.
 ## Investigation Paths
-![Investigation Paths](/assets/img/vanthampur/vathampur-investigative-paths.png)
-
+![[assets/img/vanthampur/vathampur-investigative-paths.png]]
 
 Clues leading to each location. Each of these can be found in the relevant sections. They are copied here so we can see all the clues in one place.
 

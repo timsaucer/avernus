@@ -57,7 +57,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       current_note.content = current_note.content.gsub(
         /\!\[\[(.*)\]\]/i, # match on the remaining double-bracket links
         <<~HTML.chomp    # replace with this HTML (\\1 is what was inside the brackets)
-          <img src="{{ site.baseurl }}\\1" />
+          <img src="{{ site.baseurl }}/\\1" />
         HTML
       )
 
