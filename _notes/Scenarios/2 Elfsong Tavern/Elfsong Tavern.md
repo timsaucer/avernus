@@ -1,13 +1,12 @@
 ---
 aliases: []
 tags: [scenario]
+title: Elfsong Tavern
 cssclass: []
 ---
 
 Main: [[Campaigns]]
 Related: [[Related Page]]
-
-# Elfsong Tavern
 
 ## Links
 

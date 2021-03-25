@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "about.md",
+            "file": "_notes/Scenarios/2 Elfsong Tavern/Elfsong Tavern.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about.md",
+                "file": "_notes/Scenarios/2 Elfsong Tavern/Elfsong Tavern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "about.md",
-    "index.md",
-    "notes.md",
-    "_notes/Home.md",
+    "_notes/Scenarios/2 Elfsong Tavern/2 Elfsong Tavern.md",
+    "_notes/Scenarios/1 The Beginning/Zodge's Deal.md",
+    "_notes/Scenarios/3 Vanthampur Investigations/3 Vanthampur Investigations.md",
+    "_notes/index.md",
     "_notes/Scenarios/1 The Beginning/The Road To Baldur's Gate.md",
     "_notes/Scenarios/1 The Beginning/The Beginning.md",
-    "_notes/Templates/Scenario.md",
-    "_notes/Templates/Location.md",
-    "_notes/Templates/Character.md",
-    "_notes/Scenarios/1 The Beginning/Untitled.md"
+    "_notes/Scenarios/1 The Beginning/Untitled.md",
+    "about.md",
+    "index.md",
+    "notes.md"
   ]
 }

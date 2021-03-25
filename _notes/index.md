@@ -25,13 +25,9 @@ Ewan
 
 ## Parts broken down by Alexandrian
 
-- [[The Beginning]]
-- [[2 Elfsong Tavern]]
-- [[3 Vanthampur Investigations]]
-- [[Investigating the Murders]]
-- [[Poisoned Poseidon]]
-- [[Dungeon of the Dead Three]]
-- [[Trafficking Amrik]]
+- [[The Road To Baldur's Gate]]
+- [[Zodge's Deal]]
+- [[Vanthampur Investigations]]
 - [[Vanthampur Manor]] 
 - Part 3J: The Portyr Assassination
 - Part 4A: The Road to Candlekeep
