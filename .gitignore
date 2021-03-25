@@ -4,5 +4,4 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
-_includes/notes_graph.json
 
