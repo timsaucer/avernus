@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: The Road to Baldur's Gate
-tags: []
+tags: [scenario]
 cssclass: []
 ---
 

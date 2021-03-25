@@ -1,7 +1,7 @@
 ---
 aliases: [beginning]
 title: The Beginning
-tags: []
+tags: [scenario]
 cssclass: []
 ---
 

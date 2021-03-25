@@ -76,6 +76,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       # Nodes: Graph
       graph_nodes << {
         id: note_id_from_note(current_note),
+        tags: tags_from_note(current_note),
         path: "#{site.baseurl}#{current_note.url}#{link_extension}",
         label: current_note.data['title'],
       } unless current_note.path.include?('_notes/index.html')
@@ -96,6 +97,10 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       edges: graph_edges,
       nodes: graph_nodes,
     }))
+  end
+
+  def tags_from_note(note)
+    note.data['tags']
   end
 
   def note_id_from_note(note)

@@ -1,6 +1,6 @@
 ---
 aliases: []
-tags: []
+tags: [scenario]
 cssclass: []
 ---
 
