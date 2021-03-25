@@ -21,7 +21,7 @@
 title: Descent into Avernus
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  These are my Dungeon Master notes for running Descent into Avernus.
+  Dungeon Master notes for running Baldur's Gate: Descent into Avernus.
 baseurl: "/avernus" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: timsaucer

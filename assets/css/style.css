@@ -280,6 +280,7 @@ hr {
     font-stretch: normal;
     float: right;
     font-size: 35px;
+    margin-top: 40px;
     margin-bottom: 10px;
     margin-right: 20px;
     font-weight: 800;
@@ -313,8 +314,8 @@ hr {
     color: #fff;
     border-radius: 50%;
     box-sizing: border-box;
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
 }
 
 
@@ -346,6 +347,8 @@ hr {
 .userdesc {
     padding-left: 20px;
     margin-top: -13px;
+    margin-bottom: -10px;
+    margin-left: 120px;
 }
 
 .userdesc p {
