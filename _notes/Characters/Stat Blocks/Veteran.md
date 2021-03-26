@@ -9,4 +9,4 @@ cssclasses: [stat-block]
 https://www.themonstersknow.com/
 
 ## Stat Block
-![Stat Block](/assets/img/stat_blocks/veteran-stat-block.png)
+![[/assets/img/stat_blocks/veteran-stat-block.png]]

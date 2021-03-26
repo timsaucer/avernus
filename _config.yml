@@ -27,6 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: timsaucer
 github_username:  timsaucer
 favicon: /avernus/assets/img/favicon.png
+destination: docs
 
 exclude: ['_includes/notes_graph.json', '_notes/Templates']
 
