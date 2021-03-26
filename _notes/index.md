@@ -28,8 +28,7 @@ Ewan
 - [[The Road To Baldurs Gate]]
 - [[Meeting Zodge]]
 - [[Vanthampur Investigations]]
-- [[Vanthampur Manor]] 
-- [[The Road To Baldurs Gate]]
+- [[Vanthampur Manor]]
 - Part 3J: The Portyr Assassination
 - Part 4A: The Road to Candlekeep
 - Part 4B: The Road to Avernus
