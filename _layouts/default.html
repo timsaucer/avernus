@@ -34,17 +34,11 @@
     <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
-
-</script>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
-
 </head>
 
 <body>
 
-
-
-    <div class="container">                    
+    <div class="container">
         <div class = "box">
             {%- include header.html -%}
             {%- include feed.html -%}
@@ -72,6 +66,7 @@
         });
     </script>
     {%- include contextmenu.html -%}
+    {%- include link_previews.html wrapperQuerySelector=".content" -%}
 </body>
 
 

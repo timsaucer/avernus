@@ -6,7 +6,7 @@ cssclass: []
 ---
 
 Main: [[Descent into Avernus]]
-Related: [[Related Page]]
+Related: [[Refugee Camp]] [[Meeting Zodge]]
 
 ## Links
 - [Official Chapter](https://www.dndbeyond.com/sources/bgdia)
@@ -20,8 +20,8 @@ It has been four long days since the city of Elturel suddenly vanished from the 
 
 ## Scenes
 
-- **Bandits attack**: As you break the crest of the next hill you see a small family on the side of the road. 1 of 5 gruff looking thugs are is in the middle of beating upon the father. See [[The Road To Baldurs Gate#Bandit Attack]].
-- **Refugee campground**: As night begins to fall, you approach a large campfire. Somber faces around the group talk in hushed tones as they share what little food the have among each other. See [[The Road To Baldurs Gate#Campground]]
+- **Bandits attack**: As you break the crest of the next hill you see a small family on the side of the road. 1 of 5 gruff looking thugs are is in the middle of beating upon the father. See [[#Bandit Attack]]
+- **Refugee campground**: As night begins to fall, you approach a large campfire. Somber faces around the group talk in hushed tones as they share what little food the have among each other. See [[#Campground]]
 	- Be sure to indicate that food is running scare.
 - **Flaming Fist roughing up refugees**: Ahead on the road you see three well armored people yelling at a family of refugees. As you get closer, you hear them berating the family and telling them to go away from Baldur's Gate.
 	- There should be 1 more Flaming Fist [[Veteran]] than the number of PCs.
@@ -62,4 +62,4 @@ It has been four long days since the city of Elturel suddenly vanished from the 
 
 ## Next Up
 
-At this point the group should arrive at Baldur's Gate where they meet [[Flame Zodge]] and he offers them [[Meeting Zodge]].
+At this point the group should arrive at Baldur's Gate where they meet [[Flame Zodge]] at the [[Refugee Camp]] and he offers them [[Meeting Zodge]].

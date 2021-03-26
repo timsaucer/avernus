@@ -29,6 +29,7 @@
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" media="all" class="default"/>
 
     <link rel="alternate" type="application/rss+xml" href="{{ site.baseurl }}/feed.xml">
+
 </head>
 
 
@@ -60,5 +61,6 @@
         });
     </script>
     {%- include contextmenu.html -%}
+    {%- include link_previews.html wrapperQuerySelector=".content" -%}
 
 </body>
