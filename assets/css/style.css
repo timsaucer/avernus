@@ -140,6 +140,11 @@ img {
     height: auto;
 }
 
+.header-button-img {
+    max-width: 50px;
+    height: auto;
+}
+
 
 code {
     font-family: Consolas, 'Courier New', Courier, monospace;
@@ -411,6 +416,7 @@ hr {
 
 .home-p, .categories-p, .rss-p, .projects-p {
    margin-top: auto;
+   margin-bottom: auto;
    margin-left: auto;
    text-align: center;
    font-weight: 600;
@@ -647,9 +653,9 @@ hr {
 
 .searchbar-container {
     position: relative;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
-    align-items: center;
 }
 
 .searchbar {

@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: Refugee Camp
-tags: []
+tags: [location]
 cssclass: []
 ---
 
