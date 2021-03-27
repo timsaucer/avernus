@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: Alan Alyth
-tags: []
+tags: [character]
 cssclasses: []
 ---
 # Alan Alyth

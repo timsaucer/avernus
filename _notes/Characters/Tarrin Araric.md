@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: Tarrin Araric
-tags: []
+tags: [character]
 cssclass: []
 ---
 # Tarrin Araric

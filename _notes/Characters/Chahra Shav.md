@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: Chahra Shav
-tags: []
+tags: [character]
 cssclass: []
 ---
 # Chahra Shav

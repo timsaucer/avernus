@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title: By Tags
 permalink: /tags/
 content-type: eg

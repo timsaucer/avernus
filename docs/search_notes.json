@@ -5,7 +5,7 @@
       "title"    : "Alan Alyth",
       "url"      : "/notes/Alan-Alyth",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "character",
       "content"  : "Alan Alyth\n\nAppearance\nOwner of the Elfsong Tavern, male neutral half elf commoner. Unattractive and overweight by half elf standards.\n\nQuote / Framework\n“Are we overlooking the possibility she may be attracted to me?”\nBased on Xander from Buffy the Vampire Slayer\n\nRole Playing\n\n  Generally likeable, but nobody’s love interest.\n  Say things like “I think it’s very possible that…”\n  Pretend to be washing glasses behind the bar\n\n\nBackground\nAlan recently turned seventy-five years old and has run the establishment for decades. His elven blood through his half-elf mother has kept him alive this long, and keeps him looking better than most full-blooded humans his age. He runs a moneylending business on the side, offering loans to customers he trusts. He rarely gives loans to adventurers, knowing how flighty they can be, but he might offer them a free glass of elverquisst wine if he thinks it’ll keep their swords sheathed (.\n\nKey Info\n\n  Owner of the Elfsong Tavern"
 
     } ,
@@ -15,7 +15,7 @@
       "title"    : "Chahra Shav",
       "url"      : "/notes/Chahra-Shav",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "character",
       "content"  : "Chahra Shav\n\nAppearance\nA middle aged woman, slightly overweight with kind eyes and shoulder length hair. Her clothes are plain, but well kept and she always has at least two children running around her. Married to Ziem Shav.\n\nQuote\n“You got yoursel into that mess, now get yourself out.”\n\nRole Playing\n\n  Molly Weasley. Generally kind, but constantly tired.\n  Always cleaning something; can’t sit still.\n  Keep pushing hair out of face.\n\n\nBackground\nChahra is the mother to six children ranging from ages four to sixteen. She’s a life long resident of the outskirts of Elturel where she is mostly a housewife and her husband is a carpenter. She enjoys raising children and feels it is her most important job in life, but she is also constantly tired from doing it.\n\nKey Info\n\n  Refugee from Elturel, fleeing to Baldur’s Gate. \n[[\nThe Beginning\n]]"
 
     } ,
@@ -25,7 +25,7 @@
       "title"    : "Flame Zodge",
       "url"      : "/notes/Flame-Zodge",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "character",
       "content"  : "Flame Zodge\nWritten as Captain Zodge but the Flaming Fist doesn’t have captains.\n\nAppearance\nLeader of the Flaming Fist; A tall man with long black hair and a leather eye patch\n\nQuote / Framework\n“It’s in the freaking city”\n\nRole Playing\n\n  Base this on Saul Tigh from Battlestar Galactica\n  Disgusted by nearly everything he hears.\n  Keep lip pursed as if waiting to hear something bad\n\n\nBackground\nAlthough Zodge lacks common decency, he cares for the well-being of the soldiers who serve under his command. Angry mobs can be dangerous, and Zodge is quick to take out the instigators so that the mob’s anger turns to fear quickly. Responds to bribes of at least 10 gp.\n\nKey Info\n\n  Use the text block from https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#MeetingCaptainZodge.\n  The deal he offers is to let in the family (or whatever NPC they care about) into the city plus the 200 gp.\n\n\nStats"
 
     } ,
@@ -35,28 +35,8 @@
       "title"    : "Thug",
       "url"      : "/notes/Thug",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "character",
       "content"  : "Name\n\nTactics\nappearance\n\nStat Block\n\nOption 1: Screen capture image of stat block and save it\nOption 2: Generate the stat block from https://tetra-cube.com/dnd/dnd-statblock.html"
-
-    } ,
-  
-    {
-
-      "title"    : "Rungreda Kragmane",
-      "url"      : "/notes/Rungreda-Kragmane",
-      "category" : "",
-      "tags"     : "",
-      "content"  : "Rungreda Kragmane\n\nAppearance\nFemale dwarf, deep red hair, dark skin. Wears leather armor over green breeches and red shirt. 100 years old.\n\nQuote / Framework\nHagrid from Harry Potter\n“Now don’t go doin’…”\n\nRole Playing\n\n  Friendly, but simple talk. Accidentally gives out more than they plan on.\n  Puffs out cheeks and blows when she gets a hard question.\n  Shakes head a lot when agreeing or disagreeing\n\n\nBackground\nRungreda runs trade caravans between Baldur’s Gate and Elturel, so she knows this route extremely well. Most of the time she travels by the river, but her boat and all her goods were stolen from her. She is traveling to Baldur’s Gate where she will use her friends and contacts there to live until she figures out what to do next.\n\nKey Info\n\n  Refugee from Elturel, was traveling by boat when it disappeared. \n[[\nThe Beginning\n]]\n  Thugs stole all her posessions and boat at swordpoint."
-
-    } ,
-  
-    {
-
-      "title"    : "Commoner",
-      "url"      : "/notes/Commoner",
-      "category" : "",
-      "tags"     : "",
-      "content"  : "Commoner\n  Medium humanoid (any race), any alignment\n___\n  \n    Armor Class 10\n    Hit Points 4 (1d8)\n    Speed 30 ft.\n__\n|STR|DEX|CON|INT|WIS|CHA|\n|:—:|:—:|:—:|:—:|:—:|:—:|\n|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|\n__\n    Senses passive Perception 10\n    Languages any one language (usually Common)\n    Challenge 0 (10 XP)\n___\n      Tactics\n      Run and Hide. Use Dash to get away from the fight as fast as possible.\n___\n      Actions\n      Club. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
 
     } ,
   
@@ -65,8 +45,18 @@
       "title"    : "Veteran",
       "url"      : "/notes/Veteran",
       "category" : "",
-      "tags"     : "",
-      "content"  : "Veteran\n\nTactics\nhttps://www.themonstersknow.com/\n\nStat Block"
+      "tags"     : "character",
+      "content"  : "Tactics\n\nappearance\n\nStat Block\n\nOption 1: Screen capture image of stat block and save it\nOption 2: Generate the stat block from https://tetra-cube.com/dnd/dnd-statblock.html"
+
+    } ,
+  
+    {
+
+      "title"    : "Rungreda Kragmane",
+      "url"      : "/notes/Rungreda-Kragmane",
+      "category" : "",
+      "tags"     : "character",
+      "content"  : "Rungreda Kragmane\n\nAppearance\nFemale dwarf, deep red hair, dark skin. Wears leather armor over green breeches and red shirt. 100 years old.\n\nQuote / Framework\nHagrid from Harry Potter\n“Now don’t go doin’…”\n\nRole Playing\n\n  Friendly, but simple talk. Accidentally gives out more than they plan on.\n  Puffs out cheeks and blows when she gets a hard question.\n  Shakes head a lot when agreeing or disagreeing\n\n\nBackground\nRungreda runs trade caravans between Baldur’s Gate and Elturel, so she knows this route extremely well. Most of the time she travels by the river, but her boat and all her goods were stolen from her. She is traveling to Baldur’s Gate where she will use her friends and contacts there to live until she figures out what to do next.\n\nKey Info\n\n  Refugee from Elturel, was traveling by boat when it disappeared. \n[[\nThe Beginning\n]]\n  Thugs stole all her posessions and boat at swordpoint."
 
     } ,
   
@@ -75,7 +65,7 @@
       "title"    : "Tarrin Araric",
       "url"      : "/notes/Tarrin-Araric",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "character",
       "content"  : "Tarrin Araric\n\nAppearance\nMale elf, younger, who wears the latest fashions. Mid-back length black hair normally tied into a pony tail.\n\nQuote / Framework\nQuark from Star Trek DS9\n“Never allow sentiment to stand in the way of opportunity.”\n\nRole Playing\n\n  A businessperson foremost. Always trying to get the best deal.\n  Always pointing out how they can benefit others (at a price).\n  Shifty eyes, always looking around to see what’s going on\n\n\nBackground\nTarrin comes from a moderatey wealthy family and works in the wine selling business. He was returning from a small vacation when Elturel disappeared. He decided to go to Baldur’s Gate for protection.\n\nKey Info\n\n  Refugee from Elturel on his way to Baldur’s Gate. \n[[\nThe Beginning\n]]\n  Knows how to get things - has many contacts.\n  Wine seller primarily but always looking for a side hussle."
 
     } ,
@@ -85,8 +75,8 @@
       "title"    : "Ziem Shav",
       "url"      : "/notes/Ziem-Shav",
       "category" : "",
-      "tags"     : "",
-      "content"  : "Ziem Shav\n\nAppearance\nMiddle aged human male typically wearing well worn clothes. His hair is a mixture of brown and grey, and he’s generally a very positive and welcoming person.\n\nQuote\n“Come in, sit down. Let me get you a cup of tea.”\n\nRole Playing\n\n  Arthur Weasley - very excited to meet new people.\n  Constantly lost in thought.\n  Let out a big sigh frequently and make a deal about taking a load off.\n\n\nBackground\nHusband to Chahra Shav. Works as a carptenter on the outskirts of Elturel for many years. Many children (see Chahra’s page). Learned his carpentry kills from an uncle he apprenticed under. Particularly fond of building rocking chairs.\n\nKey Info\n\n  Refugee fleeing from Elturel to Baldur’s Gate. \n[[\n[1 The Beginning]\n]]\n\n\n!Commoner"
+      "tags"     : "character",
+      "content"  : "Ziem Shav\n\nAppearance\nMiddle aged human male typically wearing well worn clothes. His hair is a mixture of brown and grey, and he’s generally a very positive and welcoming person.\n\nQuote\n“Come in, sit down. Let me get you a cup of tea.”\n\nRole Playing\n\n  Arthur Weasley - very excited to meet new people.\n  Constantly lost in thought.\n  Let out a big sigh frequently and make a deal about taking a load off.\n\n\nBackground\nHusband to Chahra Shav. Works as a carptenter on the outskirts of Elturel for many years. Many children (see Chahra’s page). Learned his carpentry kills from an uncle he apprenticed under. Particularly fond of building rocking chairs.\n\nKey Info\n\n  Refugee fleeing from Elturel to Baldur’s Gate. \n[[\n[1 The Beginning]\n]]"
 
     } ,
   
@@ -227,16 +217,6 @@
       "category" : "",
       "tags"     : "",
       "content"  : "The Three F’s\n\n\n  Fantastic\n  Familiar\n  Functional\n\n\nAspects\nGive each location 3 aspects. These are things the players can interact with in some way. These are things you will describe to the players.\n\nKey Info\nThis is information you don’t share with the players directly but it impacts the campaign in some way. This is a good place to link to the adventure or keep notes for what happened here before.\n\nSeeds\n\n\n  weekend farmer’s market with purveyors of magic potions / animals (be careful with animals or they will have pets)\n  fortress built on the edge of a cliff face\n  The top half of a spiral tower emerging from the ground"
-
-    } ,
-  
-    {
-
-      "title"    : "Descent into Avernus",
-      "url"      : "/notes/index",
-      "category" : "",
-      "tags"     : "",
-      "content"  : "Links\n\nD&amp;D Beyond Campaign\n\nOfficial Source Book\n\nAlexandrian Remix\n\nPlayers\n\nForith (Simon)\n\nEwan\n\nBob (Devin)\n\nWithre (Tsukasa)\n\nParts broken down by Alexandrian\n\n\n  The Road To Baldurs Gate\n  Meeting Zodge\n  Vanthampur Investigations\n  Vanthampur Manor\n  Part 3J: The Portyr Assassination\n  Part 4A: The Road to Candlekeep\n  Part 4B: The Road to Avernus\n  Part 4C: At the Threshold of Hell\n  Part 5: Hellturel\n  Part 5B-A: Arrival in Hellturel\n  Part 5B-B: Streetcrawl in Elturel\n  Part 5C-A: Pointcrawl in Elturel\n  Part 5C-B: A Very Brief Gazette of Elturel\n  Part 5C-C: Elturel Locations\n  Part 5D: The High Hall\n  Part 5E: The Grand Cemetery\n  Part 6: The Rest of the Remix\n  Part 6B: The Avernian Quest\n  Part 6C: Quest of the Dream Machine\n  Part 6D: Lulu’s Memories\n  Part 6D-B: Zariel’s Crusade – Part 6D-C: Zariel In Hell\n  Part 6D-D: Legend of the Hellriders – Part 6D-E: Lulu’s Memory Mystery\n  Part 6D-F: Triggered Memories – Part 6D-G: Memory Revelations\n  Part 6D-H: The Four Memory Dives – 6D-I: The Dream Machine\n  Part 6D-J: Claiming the Sword – 6D-K: Zariel’s Spark\n  6D-L: Questioning the Hellriders\n  Part 7: Exploring Avernus\n  Part 8: The End"
 
     } 
   

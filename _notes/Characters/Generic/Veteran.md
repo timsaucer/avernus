@@ -1,12 +1,13 @@
 ---
 aliases: []
 tags: []
+title: Veteran
 tags: [character]
 cssclasses: []
 ---
-# Name
 
 ## Tactics
+
 appearance
 
 ## Stat Block
@@ -14,4 +15,4 @@ appearance
 Option 1: Screen capture image of stat block and save it
 Option 2: Generate the stat block from https://tetra-cube.com/dnd/dnd-statblock.html
 
-![[/assets/img/stat_blocks/thug-stat-block.png]]
+![[/assets/img/stat_blocks/veteran-stat-block.png]]

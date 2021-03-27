@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: Ziem Shav
-tags: []
+tags: [character]
 cssclasses: []
 ---
 # Ziem Shav

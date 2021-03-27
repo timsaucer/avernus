@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: Flame Zodge
-tags: []
+tags: [character]
 cssclasses: []
 ---
 # Flame Zodge

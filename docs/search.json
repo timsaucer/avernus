@@ -36,25 +36,17 @@
   
     {
 
+      "title"    : "Veteran",
+      "url"      : "/notes/Veteran",
+      "content"  : "TacticsappearanceStat BlockOption 1: Screen capture image of stat block and save itOption 2: Generate the stat block from https://tetra-cube.com/dnd/dnd-statblock.html"
+
+    },
+  
+    {
+
       "title"    : "Rungreda Kragmane",
       "url"      : "/notes/Rungreda-Kragmane",
       "content"  : "Rungreda KragmaneAppearanceFemale dwarf, deep red hair, dark skin. Wears leather armor over green breeches and red shirt. 100 years old.Quote / FrameworkHagrid from Harry Potter“Now don’t go doin’…”Role Playing  Friendly, but simple talk. Accidentally gives out more than they plan on.  Puffs out cheeks and blows when she gets a hard question.  Shakes head a lot when agreeing or disagreeingBackgroundRungreda runs trade caravans between Baldur’s Gate and Elturel, so she knows this route extremely well. Most of the time she travels by the river, but her boat and all her goods were stolen from her. She is traveling to Baldur’s Gate where she will use her friends and contacts there to live until she figures out what to do next.Key Info  Refugee from Elturel, was traveling by boat when it disappeared. [[The Beginning]]  Thugs stole all her posessions and boat at swordpoint."
-
-    },
-  
-    {
-
-      "title"    : "Commoner",
-      "url"      : "/notes/Commoner",
-      "content"  : "Commoner  Medium humanoid (any race), any alignment___      Armor Class 10    Hit Points 4 (1d8)    Speed 30 ft.__|STR|DEX|CON|INT|WIS|CHA||:—:|:—:|:—:|:—:|:—:|:—:||10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|__    Senses passive Perception 10    Languages any one language (usually Common)    Challenge 0 (10 XP)___      Tactics      Run and Hide. Use Dash to get away from the fight as fast as possible.___      Actions      Club. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
-
-    },
-  
-    {
-
-      "title"    : "Veteran",
-      "url"      : "/notes/Veteran",
-      "content"  : "VeteranTacticshttps://www.themonstersknow.com/Stat Block"
 
     },
   
@@ -70,7 +62,7 @@
 
       "title"    : "Ziem Shav",
       "url"      : "/notes/Ziem-Shav",
-      "content"  : "Ziem ShavAppearanceMiddle aged human male typically wearing well worn clothes. His hair is a mixture of brown and grey, and he’s generally a very positive and welcoming person.Quote“Come in, sit down. Let me get you a cup of tea.”Role Playing  Arthur Weasley - very excited to meet new people.  Constantly lost in thought.  Let out a big sigh frequently and make a deal about taking a load off.BackgroundHusband to Chahra Shav. Works as a carptenter on the outskirts of Elturel for many years. Many children (see Chahra’s page). Learned his carpentry kills from an uncle he apprenticed under. Particularly fond of building rocking chairs.Key Info  Refugee fleeing from Elturel to Baldur’s Gate. [[[1 The Beginning]]]!Commoner"
+      "content"  : "Ziem ShavAppearanceMiddle aged human male typically wearing well worn clothes. His hair is a mixture of brown and grey, and he’s generally a very positive and welcoming person.Quote“Come in, sit down. Let me get you a cup of tea.”Role Playing  Arthur Weasley - very excited to meet new people.  Constantly lost in thought.  Let out a big sigh frequently and make a deal about taking a load off.BackgroundHusband to Chahra Shav. Works as a carptenter on the outskirts of Elturel for many years. Many children (see Chahra’s page). Learned his carpentry kills from an uncle he apprenticed under. Particularly fond of building rocking chairs.Key Info  Refugee fleeing from Elturel to Baldur’s Gate. [[[1 The Beginning]]]"
 
     },
   
@@ -183,14 +175,6 @@
       "title"    : "Location Frameworks",
       "url"      : "/notes/Location-Frameworks",
       "content"  : "The Three F’s  Fantastic  Familiar  FunctionalAspectsGive each location 3 aspects. These are things the players can interact with in some way. These are things you will describe to the players.Key InfoThis is information you don’t share with the players directly but it impacts the campaign in some way. This is a good place to link to the adventure or keep notes for what happened here before.Seeds  weekend farmer’s market with purveyors of magic potions / animals (be careful with animals or they will have pets)  fortress built on the edge of a cliff face  The top half of a spiral tower emerging from the ground"
-
-    },
-  
-    {
-
-      "title"    : "Descent into Avernus",
-      "url"      : "/notes/index",
-      "content"  : "LinksD&amp;D Beyond CampaignOfficial Source BookAlexandrian RemixPlayersForith (Simon)EwanBob (Devin)Withre (Tsukasa)Parts broken down by Alexandrian  The Road To Baldurs Gate  Meeting Zodge  Vanthampur Investigations  Vanthampur Manor  Part 3J: The Portyr Assassination  Part 4A: The Road to Candlekeep  Part 4B: The Road to Avernus  Part 4C: At the Threshold of Hell  Part 5: Hellturel  Part 5B-A: Arrival in Hellturel  Part 5B-B: Streetcrawl in Elturel  Part 5C-A: Pointcrawl in Elturel  Part 5C-B: A Very Brief Gazette of Elturel  Part 5C-C: Elturel Locations  Part 5D: The High Hall  Part 5E: The Grand Cemetery  Part 6: The Rest of the Remix  Part 6B: The Avernian Quest  Part 6C: Quest of the Dream Machine  Part 6D: Lulu’s Memories  Part 6D-B: Zariel’s Crusade – Part 6D-C: Zariel In Hell  Part 6D-D: Legend of the Hellriders – Part 6D-E: Lulu’s Memory Mystery  Part 6D-F: Triggered Memories – Part 6D-G: Memory Revelations  Part 6D-H: The Four Memory Dives – 6D-I: The Dream Machine  Part 6D-J: Claiming the Sword – 6D-K: Zariel’s Spark  6D-L: Questioning the Hellriders  Part 7: Exploring Avernus  Part 8: The End"
 
     }
   

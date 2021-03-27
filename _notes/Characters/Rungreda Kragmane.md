@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: Rungreda Kragmane
-tags: []
+tags: [character]
 cssclass: []
 ---
 # Rungreda Kragmane
