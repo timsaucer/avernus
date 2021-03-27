@@ -3,7 +3,7 @@ aliases: []
 title: Descent into Avernus
 tags: []
 cssclass: []
-layout: home
+layout: default
 permalink: /
 ---
 

@@ -43,17 +43,14 @@
             {%- include header.html -%}
             {%- include feed.html -%}
 
-            {%- if page.content-type == "notes" 
-                or page.content-type == "post" 
-                or page.content-type == "eg" -%}
             <main>
                 <h1>{{page.title}}</h1>
                 {%- include content.html -%}
                 <hr>
                 {%- include backlinks.html -%}
-                {%- include related.html -%}
+                {%- include node_graph.html -%}
             </main>
-            {%- endif -%}
+
             {%- include comments.html -%}
             {%- include footer.html -%}
         </div>

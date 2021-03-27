@@ -389,7 +389,6 @@ hr {
 
 .main-site-subheader {
     border-bottom: 1px solid #f7f7f7;
-    padding-left: 15px;
     display: flex;
 }
 
@@ -1406,6 +1405,10 @@ width: 30% !important;
 
 
 @media screen and (max-width: 800px){
+
+.main-site-subheader {
+    flex-direction: column;
+}
 
 .box {
     width: 80%;
