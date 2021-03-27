@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Scenarios/1 The Beginning/The Road To Baldurs Gate.md",
-            "mode": "preview"
+            "file": "about.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Scenarios/1 The Beginning/The Road To Baldurs Gate.md",
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,6 +86,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "about.md",
     "_notes/Scenarios/1 The Beginning/The Road To Baldurs Gate.md",
     "_notes/Scenarios/1 The Beginning/Meeting Zodge.md",
     "_notes/Scenarios/1 The Beginning/Refugee Camp.md",
@@ -94,7 +95,6 @@
     "_notes/Characters/Flame Zodge.md",
     "_notes/Scenarios/2 Elfsong Tavern/Elfsong Tavern.md",
     "_notes/Scenarios/3 Vanthampur Investigations/Vanthampur Investigations.md",
-    "_notes/Scenarios/3 Vanthampur Investigations/Investigating the Murders.md",
-    "_notes/Characters/Generic/Thug.md"
+    "_notes/Scenarios/3 Vanthampur Investigations/Investigating the Murders.md"
   ]
 }
