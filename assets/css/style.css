@@ -1500,9 +1500,9 @@ label.margin-toggle:not(.sidenote-number) {
     margin-right: 10px;
 }
 
-[id] > a {
+/* [id] > a {
     display: none;
-}
+} */
 [id]:hover > a {
     display: inline;
 }

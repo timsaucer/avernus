@@ -1,5 +1,6 @@
 ---
 ---
+
 const MINIMAL_NODE_SIZE = 8;
 const MAX_NODE_SIZE = 12;
 const ACTIVE_RADIUS_FACTOR = 1.5;
@@ -9,19 +10,114 @@ const TICKS = 200;
 const FONT_BASELINE = 40;
 const MAX_LABEL_LENGTH = 50;
 
-const graphData = {% include notes_graph.json %}
 
-let nodesData = graphData.nodes;
-let linksData = graphData.edges;
+{%- assign edges_array = "" -%}
+{%- assign nodes_array = "" -%}
+{%- assign tag_array = "" -%}
+
+{%- assign first_tag = true -%}
+{%- assign first_node = true -%}
+{%- assign first_link = true -%}
+{%- for note1 in site.notes -%}
+    {%- if first_node -%}
+        {%- assign first_node = false -%}
+        {%- assign nodes_array = nodes_array | append: '  ' -%}
+    {%- else -%}
+        {%- assign nodes_array = nodes_array | append: ",
+  " -%}
+    {%- for curr_tag in note1.tags -%}
+        {%- unless tag_array contains curr_tag -%}
+            {%- if first_tag -%}
+                {%- assign first_tag = false -%}
+            {%- else -%}
+                {%- assign tag_array = tag_array | append: ',' -%}
+            {%- endif -%}
+            {%- assign tag_array = tag_array | append: '"' | append: curr_tag | append: '"' -%}
+        {%- endunless -%}
+    {%- endfor -%}
+    {%- endif -%}
+{%- assign nodes_array = nodes_array | append: '{ "id": "' | append: note1.title | append: '", "path": "' | append: site.baseurl | append: note1.url | append: '", tags: ' | append: note1.tags | append: '}' -%}
+    {%- for note2 in site.notes -%}
+        {%- if note2.url != note1.url -%}
+            {%- if note2.content contains note1.title -%}
+                {%- if first_link -%}
+                    {%- assign first_link = false -%}
+                {%- else -%}
+                    {%- assign edges_array = edges_array | append: "," -%}
+                {%- endif -%}
+                {%- assign edges_array = edges_array | append: '{ "source": "' | append: note2.title | append: '", "target": "' | append: note1.title | append: '" }' -%}
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+{% endfor %}
+
+let allNodes = [
+{{ nodes_array }}
+];
+let allEdges = [ {{ edges_array }} ];
+let allTags = [ {{ tag_array }} ];
+
+let activeNodes = [];
+let activeEdges = [];
+let activeTags = [ "character", "scenario" ];
 
 const nodeSize = {};
 
+const toggleTag = (tagName) => {
+    const idx = activeTags.indexOf(tagName)
+    if (idx == -1) {
+        activeTags.push(tagName);
+    }
+    else {
+        activeTags.splice(idx, 1);
+    }
+    restart();
+};
+
+{% assign all_tags_as_array = tag_array | remove: '"' | split: "," %}
+{%- for curr_tag in all_tags_as_array -%}
+    $('a#{{ curr_tag }}-tag').click(() => {
+        toggleTag("{{ curr_tag }}");
+    })
+{% endfor %}
+
+const updateActiveNodes = () => {
+    {% for curr_tag in all_tags_as_array %}
+        if (activeTags.indexOf("{{ curr_tag }}") == -1) {
+            document.getElementById("{{ curr_tag }}-tag-li").style.removeProperty('background');
+        }
+        else {
+            document.getElementById("{{ curr_tag }}-tag-li").style.background = "#A4C0BF";
+        }
+    {% endfor %}
+    if (activeTags.len == 0) {
+        activeNodes = allNodes;
+    }
+    else {
+        activeNodes = [];
+        allNodes.forEach((currNode) => {
+            currNode.tags.forEach((currTag) => {
+                if (activeTags.indexOf(currTag) != -1) {
+                    activeNodes.push(currNode);
+                }
+            });
+        });
+    }
+    activeEdges = [];
+    allEdges.forEach((currEdge) => {
+        if (activeNodes.findIndex((currNode) => currNode.id == currEdge.source || currNode.id == currEdge.source.id) != -1 &&
+            activeNodes.findIndex((currNode) => currNode.id == currEdge.target || currNode.id == currEdge.target.id) != -1) {
+                activeEdges.push(currEdge);
+            }
+    });
+};
+
 const updateNodeSize = () => {
-  nodesData.forEach((el) => {
+  activeNodes.forEach((el) => {
     let weight =
       3 *
       Math.sqrt(
-        linksData.filter((l) => l.source === el.id || l.target === el.id)
+        activeEdges.filter((l) => l.source === el.id || l.target === el.id)
           .length + 1
       );
     if (weight < MINIMAL_NODE_SIZE) {
@@ -39,7 +135,7 @@ const onClick = (d) => {
 
 const onMouseover = function (d) {
   const relatedNodesSet = new Set();
-  linksData
+  activeEdges
     .filter((n) => n.target.id == d.id || n.source.id == d.id)
     .forEach((n) => {
       relatedNodesSet.add(n.target.id);
@@ -93,7 +189,7 @@ const sameNodes = (previous, next) => {
 
   for (const node of next) {
     const found = map.get(node.id);
-    if (!found || found !== node.title) {
+    if (!found || found !== node.id) {
       return false;
     }
   }
@@ -140,14 +236,14 @@ const height = Number(svg.attr("height"));
 let zoomLevel = 1;
 
 const simulation = d3
-  .forceSimulation(nodesData)
+  .forceSimulation(activeNodes)
   .force("forceX", d3.forceX().x(width / 2))
   .force("forceY", d3.forceY().y(height / 2))
   .force("charge", d3.forceManyBody())
   .force(
     "link",
     d3
-      .forceLink(linksData)
+      .forceLink(activeEdges)
       .id((d) => d.id)
       .distance(70)
   )
@@ -198,8 +294,9 @@ const ticked = () => {
 };
 
 const restart = () => {
+  updateActiveNodes();
   updateNodeSize();
-  node = node.data(nodesData, (d) => d.id);
+  node = node.data(activeNodes, (d) => d.id);
   node.exit().remove();
   node = node
     .enter()
@@ -212,16 +309,16 @@ const restart = () => {
     .on("mouseout", onMouseout)
     .merge(node);
 
-  link = link.data(linksData, (d) => `${d.source.id}-${d.target.id}`);
+  link = link.data(activeEdges, (d) => `${d.source.id}-${d.target.id}`);
   link.exit().remove();
   link = link.enter().append("line").attr("stroke-width", STROKE).merge(link);
 
-  text = text.data(nodesData, (d) => d.label);
+  text = text.data(activeNodes, (d) => d.id);
   text.exit().remove();
   text = text
     .enter()
     .append("text")
-    .text((d) => shorten(d.label.replace(/_*/g, ""), MAX_LABEL_LENGTH))
+    .text((d) => shorten(d.id.replace(/_*/g, ""), MAX_LABEL_LENGTH))
     .attr("font-size", `${FONT_SIZE}px`)
     .attr("text-anchor", "middle")
     .attr("alignment-baseline", "central")
@@ -233,8 +330,8 @@ const restart = () => {
   node.attr("active", (d) => isCurrentPath(d.path) ? true : null);
   text.attr("active", (d) => isCurrentPath(d.path) ? true : null);
 
-  simulation.nodes(nodesData);
-  simulation.force("link").links(linksData);
+  simulation.nodes(activeNodes);
+  simulation.force("link").links(activeEdges);
   simulation.alpha(1).restart();
   simulation.stop();
 

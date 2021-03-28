@@ -7,19 +7,112 @@ const TICKS = 200;
 const FONT_BASELINE = 40;
 const MAX_LABEL_LENGTH = 50;
 
-const graphData = {"edges":[{"source":"10947836129789510935316286055106","target":"2948368815919762718"},{"source":"2948368815919762718","target":"10947836129789510935316286055106"},{"source":"2948368815919762718","target":"69159150118191757955"},{"source":"323325086140707919014256217647521544","target":"185158940618943134036268926719478"},{"source":"5677436996423258154767303","target":"185158940618943134036268926719478"},{"source":"6578728046106700843429580","target":"185158940618943134036268926719478"},{"source":"185158940618943134036268926719478","target":"148435233412386193036837809"},{"source":"6578728046106700843429580","target":"148435233412386193036837809"},{"source":"192187888964781428758635","target":"148435233412386193036837809"},{"source":"2948368815919762718","target":"323325086140707919014256217647521544"},{"source":"69159150118191757955","target":"5677436996423258154767303"},{"source":"323325086140707919014256217647521544","target":"5677436996423258154767303"},{"source":"6578728046106700843429580","target":"5677436996423258154767303"},{"source":"185158940618943134036268926719478","target":"6578728046106700843429580"},{"source":"323325086140707919014256217647521544","target":"6578728046106700843429580"},{"source":"185158940618943134036268926719478","target":"192187888964781428758635"},{"source":"6578728046106700843429580","target":"192187888964781428758635"},{"source":"192187888964781428758635","target":"192187888964781428758635"}],"nodes":[{"id":"2948368815919762718","path":"/avernus/notes/Meeting-Zodge","label":"Meeting Zodge"},{"id":"10947836129789510935316286055106","path":"/avernus/notes/The-Road-To-Baldurs-Gate","label":"The Road to Baldurs Gate"},{"id":"69159150118191757955","path":"/avernus/notes/Elfsong-Tavern","label":"Elfsong Tavern"},{"id":"185158940618943134036268926719478","path":"/avernus/notes/Dungeon-of-the-Dead-Three","label":"Dungeon of the Dead Three"},{"id":"148435233412386193036837809","path":"/avernus/notes/Infernal-Puzzlebox","label":"Infernal Puzzlebox"},{"id":"323325086140707919014256217647521544","path":"/avernus/notes/Investigating-the-Murders","label":"Investigating the Murders"},{"id":"5677436996423258154767303","path":"/avernus/notes/Poisoned-Poseidon","label":"Poisoned Poseidon"},{"id":"6578728046106700843429580","path":"/avernus/notes/Trafficking-Amrik","label":"Trafficking Amrik"},{"id":"192187888964781428758635","path":"/avernus/notes/Vanthampur-Manor","label":"Vanthampur Manor"}]}
+let allNodes = [
+  { "id": "Alan Alyth", "path": "/avernus/notes/Alan-Alyth", tags: ["character"]},
+  { "id": "Chahra Shav", "path": "/avernus/notes/Chahra-Shav", tags: ["character"]},
+  { "id": "Flame Zodge", "path": "/avernus/notes/Flame-Zodge", tags: ["character"]},
+  { "id": "Thug", "path": "/avernus/notes/Thug", tags: ["character"]},
+  { "id": "Veteran", "path": "/avernus/notes/Veteran", tags: ["character"]},
+  { "id": "Rungreda Kragmane", "path": "/avernus/notes/Rungreda-Kragmane", tags: ["character"]},
+  { "id": "Tarrin Araric", "path": "/avernus/notes/Tarrin-Araric", tags: ["character"]},
+  { "id": "Ziem Shav", "path": "/avernus/notes/Ziem-Shav", tags: ["character"]},
+  { "id": "Meeting Zodge", "path": "/avernus/notes/Meeting-Zodge", tags: ["scenario"]},
+  { "id": "Refugee Camp", "path": "/avernus/notes/Refugee-Camp", tags: ["location"]},
+  { "id": "The Road to Baldurs Gate", "path": "/avernus/notes/The-Road-To-Baldurs-Gate", tags: ["scenario"]},
+  { "id": "Elfsong Tavern", "path": "/avernus/notes/Elfsong-Tavern", tags: ["scenario"]},
+  { "id": "Dungeon of the Dead Three", "path": "/avernus/notes/Dungeon-of-the-Dead-Three", tags: ["scenario"]},
+  { "id": "Infernal Puzzlebox", "path": "/avernus/notes/Infernal-Puzzlebox", tags: ["scenario"]},
+  { "id": "Investigating the Murders", "path": "/avernus/notes/Investigating-the-Murders", tags: ["scenario"]},
+  { "id": "Poisoned Poseidon", "path": "/avernus/notes/Poisoned-Poseidon", tags: ["scenario"]},
+  { "id": "Trafficking Amrik", "path": "/avernus/notes/Trafficking-Amrik", tags: ["scenario"]},
+  { "id": "Vanthampur Investigations", "path": "/avernus/notes/Vanthampur-Investigations", tags: []},
+  { "id": "Vanthampur Manor", "path": "/avernus/notes/Vanthampur-Manor", tags: ["scenario"]},
+  { "id": "Rumors of Elturel", "path": "/avernus/notes/Rumors-of-Elturel", tags: []},
+  { "id": "Character Frameworks", "path": "/avernus/notes/Character-Frameworks", tags: []},
+  { "id": "Location Frameworks", "path": "/avernus/notes/Location-Frameworks", tags: []}
+];
+let allEdges = [ { "source": "Elfsong Tavern", "target": "Alan Alyth" },{ "source": "Ziem Shav", "target": "Chahra Shav" },{ "source": "The Road to Baldurs Gate", "target": "Chahra Shav" },{ "source": "Meeting Zodge", "target": "Flame Zodge" },{ "source": "Refugee Camp", "target": "Flame Zodge" },{ "source": "The Road to Baldurs Gate", "target": "Flame Zodge" },{ "source": "Rungreda Kragmane", "target": "Thug" },{ "source": "The Road to Baldurs Gate", "target": "Thug" },{ "source": "Flame Zodge", "target": "Veteran" },{ "source": "The Road to Baldurs Gate", "target": "Veteran" },{ "source": "The Road to Baldurs Gate", "target": "Rungreda Kragmane" },{ "source": "The Road to Baldurs Gate", "target": "Tarrin Araric" },{ "source": "Chahra Shav", "target": "Ziem Shav" },{ "source": "The Road to Baldurs Gate", "target": "Ziem Shav" },{ "source": "The Road to Baldurs Gate", "target": "Meeting Zodge" },{ "source": "Meeting Zodge", "target": "Refugee Camp" },{ "source": "The Road to Baldurs Gate", "target": "Refugee Camp" },{ "source": "Alan Alyth", "target": "Elfsong Tavern" },{ "source": "Meeting Zodge", "target": "Elfsong Tavern" },{ "source": "Vanthampur Investigations", "target": "Elfsong Tavern" },{ "source": "Investigating the Murders", "target": "Dungeon of the Dead Three" },{ "source": "Poisoned Poseidon", "target": "Dungeon of the Dead Three" },{ "source": "Trafficking Amrik", "target": "Dungeon of the Dead Three" },{ "source": "Vanthampur Investigations", "target": "Dungeon of the Dead Three" },{ "source": "Dungeon of the Dead Three", "target": "Infernal Puzzlebox" },{ "source": "Trafficking Amrik", "target": "Infernal Puzzlebox" },{ "source": "Vanthampur Investigations", "target": "Infernal Puzzlebox" },{ "source": "Vanthampur Manor", "target": "Infernal Puzzlebox" },{ "source": "Meeting Zodge", "target": "Investigating the Murders" },{ "source": "Vanthampur Investigations", "target": "Investigating the Murders" },{ "source": "Elfsong Tavern", "target": "Poisoned Poseidon" },{ "source": "Investigating the Murders", "target": "Poisoned Poseidon" },{ "source": "Trafficking Amrik", "target": "Poisoned Poseidon" },{ "source": "Vanthampur Investigations", "target": "Poisoned Poseidon" },{ "source": "Dungeon of the Dead Three", "target": "Trafficking Amrik" },{ "source": "Investigating the Murders", "target": "Trafficking Amrik" },{ "source": "Vanthampur Investigations", "target": "Trafficking Amrik" },{ "source": "Dungeon of the Dead Three", "target": "Vanthampur Investigations" },{ "source": "Infernal Puzzlebox", "target": "Vanthampur Investigations" },{ "source": "Investigating the Murders", "target": "Vanthampur Investigations" },{ "source": "Poisoned Poseidon", "target": "Vanthampur Investigations" },{ "source": "Trafficking Amrik", "target": "Vanthampur Investigations" },{ "source": "Vanthampur Manor", "target": "Vanthampur Investigations" },{ "source": "Dungeon of the Dead Three", "target": "Vanthampur Manor" },{ "source": "Trafficking Amrik", "target": "Vanthampur Manor" },{ "source": "Vanthampur Investigations", "target": "Vanthampur Manor" },{ "source": "Meeting Zodge", "target": "Rumors of Elturel" },{ "source": "The Road to Baldurs Gate", "target": "Rumors of Elturel" },{ "source": "Elfsong Tavern", "target": "Rumors of Elturel" } ];
+let allTags = [ "character","scenario","location" ];
 
-let nodesData = graphData.nodes;
-let linksData = graphData.edges;
+let activeNodes = [];
+let activeEdges = [];
+let activeTags = [ "character", "scenario" ];
 
 const nodeSize = {};
 
+const toggleTag = (tagName) => {
+    const idx = activeTags.indexOf(tagName)
+    if (idx == -1) {
+        activeTags.push(tagName);
+    }
+    else {
+        activeTags.splice(idx, 1);
+    }
+    restart();
+};
+
+$('a#character-tag').click(() => {
+        toggleTag("character");
+    })
+$('a#scenario-tag').click(() => {
+        toggleTag("scenario");
+    })
+$('a#location-tag').click(() => {
+        toggleTag("location");
+    })
+
+
+const updateActiveNodes = () => {
+    
+        if (activeTags.indexOf("character") == -1) {
+            document.getElementById("character-tag-li").style.removeProperty('background');
+        }
+        else {
+            document.getElementById("character-tag-li").style.background = "#A4C0BF";
+        }
+    
+        if (activeTags.indexOf("scenario") == -1) {
+            document.getElementById("scenario-tag-li").style.removeProperty('background');
+        }
+        else {
+            document.getElementById("scenario-tag-li").style.background = "#A4C0BF";
+        }
+    
+        if (activeTags.indexOf("location") == -1) {
+            document.getElementById("location-tag-li").style.removeProperty('background');
+        }
+        else {
+            document.getElementById("location-tag-li").style.background = "#A4C0BF";
+        }
+    
+    if (activeTags.len == 0) {
+        activeNodes = allNodes;
+    }
+    else {
+        activeNodes = [];
+        allNodes.forEach((currNode) => {
+            currNode.tags.forEach((currTag) => {
+                if (activeTags.indexOf(currTag) != -1) {
+                    activeNodes.push(currNode);
+                }
+            });
+        });
+    }
+    activeEdges = [];
+    allEdges.forEach((currEdge) => {
+        if (activeNodes.findIndex((currNode) => currNode.id == currEdge.source || currNode.id == currEdge.source.id) != -1 &&
+            activeNodes.findIndex((currNode) => currNode.id == currEdge.target || currNode.id == currEdge.target.id) != -1) {
+                activeEdges.push(currEdge);
+            }
+    });
+};
+
 const updateNodeSize = () => {
-  nodesData.forEach((el) => {
+  activeNodes.forEach((el) => {
     let weight =
       3 *
       Math.sqrt(
-        linksData.filter((l) => l.source === el.id || l.target === el.id)
+        activeEdges.filter((l) => l.source === el.id || l.target === el.id)
           .length + 1
       );
     if (weight < MINIMAL_NODE_SIZE) {
@@ -37,7 +130,7 @@ const onClick = (d) => {
 
 const onMouseover = function (d) {
   const relatedNodesSet = new Set();
-  linksData
+  activeEdges
     .filter((n) => n.target.id == d.id || n.source.id == d.id)
     .forEach((n) => {
       relatedNodesSet.add(n.target.id);
@@ -91,7 +184,7 @@ const sameNodes = (previous, next) => {
 
   for (const node of next) {
     const found = map.get(node.id);
-    if (!found || found !== node.title) {
+    if (!found || found !== node.id) {
       return false;
     }
   }
@@ -138,14 +231,14 @@ const height = Number(svg.attr("height"));
 let zoomLevel = 1;
 
 const simulation = d3
-  .forceSimulation(nodesData)
+  .forceSimulation(activeNodes)
   .force("forceX", d3.forceX().x(width / 2))
   .force("forceY", d3.forceY().y(height / 2))
   .force("charge", d3.forceManyBody())
   .force(
     "link",
     d3
-      .forceLink(linksData)
+      .forceLink(activeEdges)
       .id((d) => d.id)
       .distance(70)
   )
@@ -196,8 +289,9 @@ const ticked = () => {
 };
 
 const restart = () => {
+  updateActiveNodes();
   updateNodeSize();
-  node = node.data(nodesData, (d) => d.id);
+  node = node.data(activeNodes, (d) => d.id);
   node.exit().remove();
   node = node
     .enter()
@@ -210,16 +304,16 @@ const restart = () => {
     .on("mouseout", onMouseout)
     .merge(node);
 
-  link = link.data(linksData, (d) => `${d.source.id}-${d.target.id}`);
+  link = link.data(activeEdges, (d) => `${d.source.id}-${d.target.id}`);
   link.exit().remove();
   link = link.enter().append("line").attr("stroke-width", STROKE).merge(link);
 
-  text = text.data(nodesData, (d) => d.label);
+  text = text.data(activeNodes, (d) => d.id);
   text.exit().remove();
   text = text
     .enter()
     .append("text")
-    .text((d) => shorten(d.label.replace(/_*/g, ""), MAX_LABEL_LENGTH))
+    .text((d) => shorten(d.id.replace(/_*/g, ""), MAX_LABEL_LENGTH))
     .attr("font-size", `${FONT_SIZE}px`)
     .attr("text-anchor", "middle")
     .attr("alignment-baseline", "central")
@@ -231,8 +325,8 @@ const restart = () => {
   node.attr("active", (d) => isCurrentPath(d.path) ? true : null);
   text.attr("active", (d) => isCurrentPath(d.path) ? true : null);
 
-  simulation.nodes(nodesData);
-  simulation.force("link").links(linksData);
+  simulation.nodes(activeNodes);
+  simulation.force("link").links(activeEdges);
   simulation.alpha(1).restart();
   simulation.stop();
 

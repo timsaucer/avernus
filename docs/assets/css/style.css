@@ -406,8 +406,7 @@ img[src*='#center'] { display: block; margin: auto; }
 /* DISQUS THREAD MARGIN OVERRIDE FOR LEGIBILITY, DO NOT TOUCH */
 #disqus_thread { margin-left: 10px; margin-right: 10px; }
 
-[id] > a { display: none; }
-
+/* [id] > a { display: none; } */
 [id]:hover > a { display: inline; }
 
 line { stroke: #ccc; opacity: 0.5; }
