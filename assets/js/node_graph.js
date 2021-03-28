@@ -90,7 +90,7 @@ const updateActiveNodes = () => {
             document.getElementById("{{ curr_tag }}-tag-li").style.background = "#A4C0BF";
         }
     {% endfor %}
-    if (activeTags.len == 0) {
+    if (activeTags.length == 0) {
         activeNodes = allNodes;
     }
     else {

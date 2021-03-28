@@ -85,7 +85,7 @@ const updateActiveNodes = () => {
             document.getElementById("location-tag-li").style.background = "#A4C0BF";
         }
     
-    if (activeTags.len == 0) {
+    if (activeTags.length == 0) {
         activeNodes = allNodes;
     }
     else {
