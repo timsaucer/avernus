@@ -11,9 +11,39 @@
     {%- endfor -%}
     {%- endif -%}
 </ul>
+{% capture new_line %}
+{% endcapture %}
 {%- endif -%}
 {% include toc.html html=content %}
 <div class="content">
+
+    {%- assign replaced_content = content -%}
+
+    {%- assign embedded_content_array = content | split:'![[' -%}
+    {%- for item in embedded_content_array -%}
+        {%- if forloop.index > 1 -%}
+            {%- assign start = item | split:']]' -%}
+
+            {% assign itempart = start[0] | split: "|" %}
+            {% assign alt_link = itempart[1] %}
+
+            {% assign itempart = itempart[0] | split: "#" %}
+            {%- assign internal_link = itempart[0] -%}
+
+            {%- comment -%}
+                For now we're assuming we only have images to process when we have a ![[something.png]] entry.
+                We may want to update this in the future to include sections of another note, so we can
+                do things like ![[somenote#subsection]] to get only that note's #subsection content.
+                That would also need to be recursively applied, so change the main loop we're doing here.
+            {%- endcomment -%}
+
+            {%- assign img_text = '<p><img src="' | append: site.baseurl | append: '/' | append: internal_link | append: '"/></p>' -%}
+            {%- assign bracket_link = '![[' | append: start[0] | append: ']]' -%}
+            {%- assign replaced_content = replaced_content | replace: bracket_link,img_text -%}
+
+        {%- endif -%}
+    {%- endfor -%}
+
     {%- assign content_array = content | split:'[[' -%}
     {%- assign external_link_delimiter = '::' -%}
     {%- assign internal_link_delimiter = '|' -%}
@@ -39,7 +69,6 @@
 
             {%- assign external_link = itempart[0] | split:external_link_delimiter -%}
             {%- assign sidenote = itempart[0] | split:sidenote_delimiter -%}
-
 
             {%- if external_link[1] == nil -%}
 
@@ -92,8 +121,6 @@
     {%- assign external_url_array = external_urls | split:link_joiner_delimiter -%}
     {%- assign external_link_array = external_links | split:link_joiner_delimiter -%}
 
-    {%- assign replaced_content = content -%}
-
     {%- for title in internal_link_array -%}
 
         {%- assign url = internal_url_array[forloop.index0] -%}
@@ -112,11 +139,11 @@
 
             {%- if post[0].title == nil -%}
 
-                {%- assign post = site.posts | where: 'title',title -%}
+                {%- assign post = site.pages | where: 'title',title -%}
 
             {%- endif -%}
 
-            {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 500 | newline_to_br -%}
+            {%- assign excerpt = post[0].content | replace: '![[','' | replace: '[[','' | replace: ']]','' | markdownify | strip_html | truncate: 500 | newline_to_br -%}
 
             {%- assign link_text = '<span class="tooltip"><a href="' | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | append: '</span><i></i></span></span>' -%}
 

@@ -27,7 +27,7 @@ Ewan
 
 ## Parts broken down by Alexandrian
 
-- [[The Road To Baldurs Gate]]
+- [[The Road to Baldurs Gate]]
 - [[Meeting Zodge]]
 - [[Vanthampur Investigations]]
 - [[Vanthampur Manor]]
