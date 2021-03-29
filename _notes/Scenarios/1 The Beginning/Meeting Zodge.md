@@ -6,7 +6,7 @@ cssclass: []
 ---
 
 Main: [[Descent into Avernus]]
-Related: [[The Road To Baldurs Gate]] [[Refugee Camp]]
+Related: [[The Road to Baldurs Gate]] [[Refugee Camp]]
 
 ## Links
 - [Official Chapter](https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#TheBasiliskGate)
