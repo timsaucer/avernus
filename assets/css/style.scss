@@ -392,6 +392,10 @@ hr {
     display: flex;
 }
 
+.subheader-button-container {
+    white-space: nowrap;
+}
+
 .home, .categories, .rss, .projects {
     padding-left: 5px;
     padding-right: 10px;
@@ -1410,6 +1414,12 @@ width: 30% !important;
     flex-direction: column;
 }
 
+.categories {
+    max-width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .box {
     width: 80%;
 }
@@ -1464,6 +1474,7 @@ label.margin-toggle:not(.sidenote-number) {
 .related-wrapper {
     grid-template-columns: repeat(1, 1fr);
 }
+
 }
 
 @media print {
