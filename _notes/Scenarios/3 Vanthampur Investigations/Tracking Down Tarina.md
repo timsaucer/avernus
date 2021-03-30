@@ -5,7 +5,7 @@ title: Tracking Down Tarina
 cssclass: []
 ---
 
-The Elfsong Tavern is the player's meeting place for [[Tarina]]. She is not there originally but does show up and direct them to the [[Poisoned Poseidon]].
+The players should try to track down [[Tarina]] by going to the Elfsong Tavern. She is not there originally but does show up and direct them to the [[Poisoned Poseidon]].
 
 ## Links
 - Main: [[Descent into Avernus]]
@@ -19,7 +19,7 @@ Use the description in [[Elfsong Tavern]].
 
 ## Scenes
 
-- Entering the [[Elfsong Tavern]] while the Elfsong is being sung. [[Tarina]] isn’t there yet.
+- Entering the [[Elfsong Tavern]] while the Elfsong is being sung. [[Tarina]] isn’t there yet. Use the Elfsong Tavern location to describe the scene. They can interact with some NPCs or just move straight on to the next scene.
 - [[Alan Alyth]] comes over to ask them to deal with the deadbeat Oshalla.
 	- While the PCs are waiting for Tarina to show up, Alan Alyth comes over to their table.
 	- He’s seen the Flaming Fist badges they’re wearing and he’d like their help.
@@ -47,6 +47,6 @@ See [[Elfsong Tavern]].
 
 ## Important NPCs
 
-- **[[Alan Alyth]]**
-- **Falten** Young human male server.
-- **Yimiur** Young human male server.
+- **[[Alan Alyth]]** - The owner and barkeep.
+- **Falten** - Young human male server.
+- **Yimia** - Young human female server.
