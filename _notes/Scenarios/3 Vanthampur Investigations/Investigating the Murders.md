@@ -5,20 +5,25 @@ title: Investigating the Murders
 cssclass: []
 ---
 
+If the players elect to try to solve the murders without going to talk to Tarina (or give up on her), they can attempt to solve the murders on their own. The two obvious places for them to go are to talk to other refugees or to the place the bodies are being dumped.
+
 ## Links
 - Main: [[Descent into Avernus]]
 - Related: [[Vanthampur Investigations]]
 - Official Chapter
-- Alexandrian Remix https://thealexandrian.net/wordpress/44396/roleplaying-games/remixing-avernus-part-3d-investigating-the-murders
+- [Alexandrian Remix](https://thealexandrian.net/wordpress/44396/roleplaying-games/remixing-avernus-part-3d-investigating-the-murders)
 - [Lore of the Vanthampur Investigations](https://thealexandrian.net/wordpress/44320/roleplaying-games/remixing-avernus-part-3b-lore-of-the-vanthampur-investigations)
-
-## Strong Start
-
-Description of your strong start.
 
 ## Scenes
 
-- Small scene description
+### Talking to Refugees
+- If you haven't already describe [[Refugee Camp]].
+- Refugees are scared. They will hesitate to trust players with the flaming fist sign showing off. Money or food will loosen their lips.
+- Refugees can give clues of **canvassing the victims** or **tanner's fluid** or point the players to go check out [[Insight Park]].
+
+### Insight Park
+- Decribe [[Insight Park]].
+- Depending on the players' approach they can learn any of the clues below except **canvassing victims**.
 
 ## Secrets and Clues
 
@@ -30,23 +35,33 @@ Description of your strong start.
 
 ## Fantastic Locations
 
-- aspect
-- aspect
-- aspect
+- [[Refugee Camp]]
+- [[Insight Park]]
 
 ## Important NPCs
 
-**Name** Description
-
-**Name** Description
-
-**Name** Description
+- **Torimesh** the [Druid](https://www.dndbeyond.com/monsters/druid) 
+	- An elderly man, originally transformed the park from dump to park.
+	- He is both furious and heartsick about the bodies being dumped in the park.
+	- He’ll rage about the fact that the Flaming Fist has done nothing (“Nothing!”) to put a stop to it.
+- Victims - [additional info for each one](https://thealexandrian.net/wordpress/44396/roleplaying-games/remixing-avernus-part-3d-investigating-the-murders)
+	-   Edmao Eduarda
+	-   Wemba Oshrat
+	-   Madhuri Akhila
+	-   Leiv Diomidis
+	-   Aneta Diomidis
+	-   Annika Silverleaf
+- Additional victims if they don't solve the case in a day:
+	-   Shohreh Letitia
+	-   Iolanthe Oshrat (sister of Wemba Oshrat, the second victim)
+	-   Valeria Nuska
+	-   Weronika Nuska (sisters)
 
 ## Potential Monsters
 
-- Name
+- [Fists of Bane](https://www.dndbeyond.com/sources/bgdia/creatures#BaneandHisFollowers) (2) dumping bodies
 
 ## Potential Treasure
 
-- Description
+- 1gp each
 
