@@ -84,10 +84,15 @@ const toggleTag = (tagName) => {
 const updateActiveNodes = () => {
     {% for curr_tag in all_tags_as_array %}
         if (activeTags.indexOf("{{ curr_tag }}") == -1) {
-            document.getElementById("{{ curr_tag }}-tag-li").style.removeProperty('background');
+          document.getElementById("{{ curr_tag }}-tag-li-enabled").style.display = "none";
+          document.getElementById("{{ curr_tag }}-tag-li-disabled").style.display = "inline";
+
+            // document.getElementById("{{ curr_tag }}-tag-li").style.removeProperty('background');
         }
         else {
-            document.getElementById("{{ curr_tag }}-tag-li").style.background = "#A4C0BF";
+          document.getElementById("{{ curr_tag }}-tag-li-enabled").style.display = "inline";
+          document.getElementById("{{ curr_tag }}-tag-li-disabled").style.display = "none";
+            // document.getElementById("{{ curr_tag }}-tag-li").style.background = "#A4C0BF";
         }
     {% endfor %}
     if (activeTags.length == 0) {
@@ -304,6 +309,7 @@ const restart = () => {
     .attr("r", (d) => {
       return nodeSize[d.id];
     })
+    .attr("tag", (d) => d.tags[0])
     .on("click", onClick)
     .on("mouseover", onMouseover)
     .on("mouseout", onMouseout)

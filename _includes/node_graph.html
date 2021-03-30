@@ -6,7 +6,8 @@
         {%- for curr_tag in curr_note.tags -%}
             {%- unless all_tags contains curr_tag -%}
                 {%- assign all_tags = all_tags | append: ' ' | append: curr_tag -%}
-                <li style="padding: 0 5px; border-radius: 10px;" class="tag" id="{{ curr_tag }}-tag-li"><div><a id="{{ curr_tag }}-tag" href="javascript:void(0)">{{ curr_tag }}</a></div></li>
+                <li style="padding: 0 5px; border-radius: 10px; display: inline" class="node-tag" id="{{ curr_tag }}-tag-li-enabled"><div><a id="{{ curr_tag }}-tag" href="javascript:void(0)">{{ curr_tag }}</a></div></li>
+                <li style="padding: 0 5px; border-radius: 10px; background: none; display: none" class="node-tag" id="{{ curr_tag }}-tag-li-disabled"><div><a id="{{ curr_tag }}-tag" href="javascript:void(0)">{{ curr_tag }}</a></div></li>
             {%- endunless -%}
         {%- endfor -%}
     {%- endfor -%}

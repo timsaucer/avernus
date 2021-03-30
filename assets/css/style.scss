@@ -825,6 +825,20 @@ hr {
     font-size: 13px;
 }
 
+.node-tag {
+    color: #555555;
+    background: #EFE5CC;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    border-radius: 32px;
+    height: auto;
+    vertical-align: middle;
+    font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: normal !important;
+    font-size: 13px;
+}
+
 .content a {
     color: #4183c4;
     text-decoration: none;
@@ -1526,9 +1540,34 @@ line {
 
 circle {
     cursor: pointer;
-    fill: #8b88e6;
+    fill: #EFE5CC;
     transition: all 0.15s ease-out;
 }
+
+circle[tag="scenario"] {
+    fill: #8b88e6;
+}
+
+circle[tag="character"] {
+    fill: #953734;
+}
+
+circle[tag="location"] {
+    fill: #A4C0BF;
+}
+
+.node-tag[id="scenario-tag-li-enabled"] {
+    background: #8b88e6;
+    color: #EFE5CC;
+}
+.node-tag[id="character-tag-li-enabled"] {
+    background: #953734;
+    color: #EFE5CC;
+}
+.node-tag[id="location-tag-li-enabled"] {
+    background: #A4C0BF;
+}
+
   /*
     .text text {
       cursor: pointer;
