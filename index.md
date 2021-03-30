@@ -27,10 +27,17 @@ Ewan
 
 ## Parts broken down by Alexandrian
 
-- [[The Road to Baldurs Gate]]
-- [[Meeting Zodge]]
+- The Beginning
+	- [[The Road to Baldurs Gate]]
+	- [[Meeting Zodge]]
+- [[Tracking Down Tarina]]
 - [[Vanthampur Investigations]]
-- [[Vanthampur Manor]]
+	- [[Dungeon of the Dead Three]]
+	- [[Investigating the Murders]]
+	- [[Trafficking Amrik]]
+	- [[Poisoned Poseidon]]
+	- [[Vanthampur Manor]]
+	- [[Infernal Puzzlebox]]
 - Part 3J: The Portyr Assassination
 - Part 4A: The Road to Candlekeep
 - Part 4B: The Road to Avernus
