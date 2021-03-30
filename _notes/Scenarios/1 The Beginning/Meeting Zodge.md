@@ -9,7 +9,8 @@ Once they arrive at Baldur's Gate, they meet Flame Zodge who gives them a quest 
 
 ## Links
 - Main: [[Descent into Avernus]]
-- Related: [[The Road to Baldurs Gate]] [[Refugee Camp]]
+- Related: [[The Road to Baldurs Gate]]
+- Related:[[Refugee Camp]]
 - [Official Chapter](https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#TheBasiliskGate)
 - [Alexandrian Remix](https://thealexandrian.net/wordpress/44221/roleplaying-games/remixing-avernus-part-1-the-beginning)
 
