@@ -1,7 +1,7 @@
 ---
 aliases: []
-title: []
-tags: []
+title: Scenario name
+tags: [scenario]
 cssclass: []
 ---
 

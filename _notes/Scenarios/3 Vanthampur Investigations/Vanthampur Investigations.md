@@ -29,7 +29,7 @@ Clues leading to each location. Each of these can be found in the relevant secti
 
 ### **THE POISONED POSEIDON**
 
--   **Tarina’s Lead**. ([[Elfsong Tavern]]) Tarina tells the PCs to go check out the [[Poisoned Poseidon]].
+-   **Tarina’s Lead**. ([[Tracking Down Tarina]]) Tarina tells the PCs to go check out the [[Poisoned Poseidon]].
 -   **Tanner’s Fluid** ([[Investigating the Murders]]). One of the victims has an alkaline solution of wood ash and lime staining her clothes, an alchymical used to rotten and loosen the hair of hides. (The nearest tannery is the [[Poisoned Poseidon]].)
 -   **Staking Out the Murder Scene** ([[Investigating the Murders]]). When the next corpse is dumped, the PCs can follow the murderers back to the [[Poisoned Poseidon]] or question them.
 -   **Amrik’s Paperwork** ([[Trafficking Amrik]]). Correspondence from [[Poisoned Poseidon]] and notations on the genealogical reports. Amrik can also be questioned to this effect.

@@ -59,7 +59,7 @@ let allTags = [ {{ tag_array }} ];
 
 let activeNodes = [];
 let activeEdges = [];
-let activeTags = [ "character", "scenario" ];
+let activeTags = [ "scenario" ];
 
 const nodeSize = {};
 

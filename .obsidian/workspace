@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "about.md",
+            "file": "_notes/Scenarios/3 Vanthampur Investigations/Poisoned Poseidon.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about.md",
+                "file": "_notes/Scenarios/3 Vanthampur Investigations/Poisoned Poseidon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "about.md",
-    "_notes/Scenarios/1 The Beginning/The Road To Baldurs Gate.md",
-    "_notes/Scenarios/1 The Beginning/Meeting Zodge.md",
-    "_notes/Scenarios/1 The Beginning/Refugee Camp.md",
-    "_notes/Templates/Location.md",
-    "_notes/Scenarios/1 The Beginning/Untitled.md",
-    "_notes/Characters/Flame Zodge.md",
+    "_notes/Scenarios/3 Vanthampur Investigations/Poisoned Poseidon.md",
+    "_notes/Scenarios/2 Elfsong Tavern/Tracking Down Tarina.md",
+    "_notes/Locations/Elfsong Tavern.md",
+    "_notes/Locations/Untitled.md",
     "_notes/Scenarios/2 Elfsong Tavern/Elfsong Tavern.md",
-    "_notes/Scenarios/3 Vanthampur Investigations/Vanthampur Investigations.md",
-    "_notes/Scenarios/3 Vanthampur Investigations/Investigating the Murders.md"
+    "_notes/Characters/Tarina.md",
+    "_notes/Utilities/Character Frameworks.md",
+    "_notes/Templates/Character.md",
+    "_notes/Templates/Stat Block.md",
+    "_notes/Templates/Scenario.md"
   ]
 }

@@ -42,4 +42,4 @@ After signing the contract with Flame Zodge:
 
 ![[assets/img/level-up-image.jpeg]]
 
-The next logical places for the Adventurers to head is either [[Elfsong Tavern]] to talk to [[Tarina]] or [[Investigating the Murders]] by visiting the refugees or the dumping site for the bodies.
+The next logical places for the Adventurers to head is either [[Tracking Down Tarina]] to talk to [[Tarina]] or [[Investigating the Murders]] by visiting the refugees or the dumping site for the bodies.

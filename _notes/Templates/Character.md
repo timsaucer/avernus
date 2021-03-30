@@ -1,9 +1,9 @@
 ---
 aliases: []
-tags: []
+title: Character Name
+tags: [character]
 cssclasses: []
 ---
-# Name
 
 ## Appearance
 appearance

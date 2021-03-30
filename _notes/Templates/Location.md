@@ -1,7 +1,7 @@
 ---
 aliases: []
 title: Evocative Name
-tags: []
+tags: [location]
 cssclass: []
 ---
 
