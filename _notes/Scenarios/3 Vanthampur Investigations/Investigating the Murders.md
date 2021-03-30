@@ -5,13 +5,12 @@ title: Investigating the Murders
 cssclass: []
 ---
 
-Main: [[Descent into Avernus]]
-Related: [[Vanthampur Investigations]]
-
 ## Links
-
+- Main: [[Descent into Avernus]]
+- Related: [[Vanthampur Investigations]]
 - Official Chapter
 - Alexandrian Remix https://thealexandrian.net/wordpress/44396/roleplaying-games/remixing-avernus-part-3d-investigating-the-murders
+- [Lore of the Vanthampur Investigations](https://thealexandrian.net/wordpress/44320/roleplaying-games/remixing-avernus-part-3b-lore-of-the-vanthampur-investigations)
 
 ## Strong Start
 

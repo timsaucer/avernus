@@ -30,8 +30,8 @@ Ewan
 - The Beginning
 	- [[The Road to Baldurs Gate]]
 	- [[Meeting Zodge]]
-- [[Tracking Down Tarina]]
 - [[Vanthampur Investigations]]
+	- [[Tracking Down Tarina]]
 	- [[Dungeon of the Dead Three]]
 	- [[Investigating the Murders]]
 	- [[Trafficking Amrik]]

@@ -5,10 +5,11 @@ tags: [scenario]
 cssclass: []
 ---
 
-Main: [[Descent into Avernus]]
-Related: [[Refugee Camp]] [[Meeting Zodge]]
+This is the very beginning of the campain. Elturel has disappeared! The adventurers are on their way to Baldur's Gate along with many other refugees.
 
 ## Links
+- Main: [[Descent into Avernus]]
+- Related: [[Refugee Camp]] [[Meeting Zodge]]
 - [Official Chapter](https://www.dndbeyond.com/sources/bgdia)
 - [Alexandrian Remix](https://thealexandrian.net/wordpress/44214/roleplaying-games/remixing-avernus)
 

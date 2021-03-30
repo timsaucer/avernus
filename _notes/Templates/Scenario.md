@@ -5,11 +5,10 @@ tags: [scenario]
 cssclass: []
 ---
 
-Main: [[Descent into Avernus]]
-Related: [[Related Page]]
-
+1-2 sentence overview
 
 ## Links
+- Main: [[Descent into Avernus]]
 - [Official Chapter](https://www.dndbeyond.com/sources/bgdia)
 - [Alexandrian Remix](https://thealexandrian.net/wordpress/44214/roleplaying-games/remixing-avernus)
 

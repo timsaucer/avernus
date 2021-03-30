@@ -5,13 +5,13 @@ title: Infernal Puzzlebox
 cssclass: []
 ---
 
-Main: [[Descent into Avernus]]
-Related: [[Vanthampur Investigations]]
-
 ## Links
 
+- Main: [[Descent into Avernus]]
+- Related: [[Vanthampur Investigations]]
 - Official Chapter
 - Alexandrian Remix
+- [Lore of the Vanthampur Investigations](https://thealexandrian.net/wordpress/44320/roleplaying-games/remixing-avernus-part-3b-lore-of-the-vanthampur-investigations)
 
 ## Strong Start
 

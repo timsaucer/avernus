@@ -11,6 +11,7 @@ The Elfsong Tavern is the player's meeting place for [[Tarina]]. She is not ther
 - Main: [[Descent into Avernus]]
 - [Official Chapter](https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#ElfsongTavern)
 - [Alexandrian Remix](https://thealexandrian.net/wordpress/44253/roleplaying-games/remixing-avernus-part-2b-elfsong-tavern)
+- [Lore of the Vanthampur Investigations](https://thealexandrian.net/wordpress/44320/roleplaying-games/remixing-avernus-part-3b-lore-of-the-vanthampur-investigations)
 
 ## Strong Start
 

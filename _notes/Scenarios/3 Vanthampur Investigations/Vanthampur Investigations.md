@@ -5,13 +5,13 @@ title: Vanthampur Investigations
 cssclass: []
 ---
 
-Main: [[Descent into Avernus]]
-Related: [[Related Page]]
+This page describes the background of the murders of the refugees at Baldur's Gate. It also gives an overview of all of the clues that can be discovered and how they go from scene to scene.
 
 ## Links
-
-- Official Chapter https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#DungeonoftheDeadThree
-- Alexandrian Remix https://thealexandrian.net/wordpress/44377/roleplaying-games/remixing-avernus-part-3c-the-vanthampur-revelations
+- Main: [[Descent into Avernus]]
+- [Official Chapter](https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#DungeonoftheDeadThree)
+- [Alexandrian Remix](https://thealexandrian.net/wordpress/44377/roleplaying-games/remixing-avernus-part-3c-the-vanthampur-revelations)
+- [Lore of the Vanthampur Investigations](https://thealexandrian.net/wordpress/44320/roleplaying-games/remixing-avernus-part-3b-lore-of-the-vanthampur-investigations)
 
 ## What is happening
 ![[assets/img/vanthampur/vathanmpur-what-is-happening.png]]
@@ -27,35 +27,35 @@ Related: [[Related Page]]
 
 Clues leading to each location. Each of these can be found in the relevant sections. They are copied here so we can see all the clues in one place.
 
-### **THE POISONED POSEIDON**
+### **[[Poisoned Poseidon]]**
 
 -   **Tarina’s Lead**. ([[Tracking Down Tarina]]) Tarina tells the PCs to go check out the [[Poisoned Poseidon]].
 -   **Tanner’s Fluid** ([[Investigating the Murders]]). One of the victims has an alkaline solution of wood ash and lime staining her clothes, an alchymical used to rotten and loosen the hair of hides. (The nearest tannery is the [[Poisoned Poseidon]].)
 -   **Staking Out the Murder Scene** ([[Investigating the Murders]]). When the next corpse is dumped, the PCs can follow the murderers back to the [[Poisoned Poseidon]] or question them.
 -   **Amrik’s Paperwork** ([[Trafficking Amrik]]). Correspondence from [[Poisoned Poseidon]] and notations on the genealogical reports. Amrik can also be questioned to this effect.
 
-### **AMRIK VANTHAMPUR**
+### **[[Trafficking Amrik]]**
 
 -   **Refugee Papers** ([[Investigating the Murders]]). Forged refugee paperwork found at the murder scene and on bodies in the morgue can be traced back to [[Trafficking Amrik]].
 -   **Canvassing Victims** ([[Investigating the Murders]]). Those who knew the victims can report that they’d been smuggled into the city by [[Trafficking Amrik]].
 -   **Questioning Mortlock** [[Dungeon of the Dead Three]]. In exchange for sparing his life, Mortlock will betray [[Trafficking Amrik]] and tell the adventurers that Amrik was giving the Cult of the Dead Three the names of who to target.
 -   **Assassin’s Orders** ([[Dungeon of the Dead Three]]). The assassin targeting Mortlock carries a note with instructions from [[Trafficking Amrik]]. The assassin could also be questioned to similar effect.
 
-### **DUNGEON OF THE DEAD THREE**
+### **[[Dungeon of the Dead Three]]**
 
 -   **Questioning Killers** ([[Investigating the Murders]]). If the PCs stakeout Insight Park, they can question the cultists dumping the bodies who tell them they work out of the [[Dungeon of the Dead Three]].
 -   **Poseidon Correspondence** ([[Poisoned Poseidon]]). Reports from the Dead Three leadership mention the bathhouse leading to the [[Dungeon of the Dead Three]].
 -   **Poseidon Cultists** ([[Poisoned Poseidon]]). Following or questioning Poseidon cultists can lead to the bathhouse and the [[Dungeon of the Dead Three]].
 -   **Amrik’s Paperwork** ([[Trafficking Amrik]]). Amrik is sending reports and receiving instructions from the Dead Three leadership. He can be questioned to similar effect leading to the [[Dungeon of the Dead Three]].
 
-### **VANTHAMPUR MANOR**
+### **[[Vanthampur Manor]]**
 
 -   **Vanthampur Boys** ([[Trafficking Amrik]]/[[Dungeon of the Dead Three]]). Knowing that one or more Vanthampur heirs are involved can be enough to trigger an investigation of [[Vanthampur Manor]] all by itself.
 -   **Amrik’s Paperwork** ([[Trafficking Amrik]]). Amrik has correspondence from his brother Thurstwell leading to [[Vanthampur Manor]].
 -   **Mortlock’s Correspondence** ([[Dungeon of the Dead Three]]). A letter from his mother detailing how to access the dungeons beneath the bathhouse. Mortlock can be questioned to similar effect leading to [[Vanthampur Manor]].
 -   **Missives of the Hidden Lord** ([[Dungeon of the Dead Three]]). Correspondence from Thavius Kreeg, passing on instructions from Gargauth to the Dead Three leaders (and inadvertently revealing its presence in [[Vanthampur Manor]]).
 
-### **INFERNAL PUZZLEBOX**
+### **[[Infernal Puzzlebox]]**
 
 -   **Amrik’s Paperwork** ([[Trafficking Amrik]]). Amrik’s correspondence with his brother Thurstwell mentions the [[Infernal Puzzlebox]]. (Thurstwell has removed it from the family’s vaults where it had been secured because he was fascinated by it).
 -   **Missives of the Hidden Lord** ([[Dungeon of the Dead Three]]). The missives also mention the [[Infernal Puzzlebox]].

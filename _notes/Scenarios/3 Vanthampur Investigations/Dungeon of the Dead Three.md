@@ -5,13 +5,15 @@ title: Dungeon of the Dead Three
 cssclass: []
 ---
 
-Main: [[Descent into Avernus]]
-Related: [[Vanthampur Investigations]]
+This is a dungeon below a public bath house that is used by the Cult of the Dead Three. They should meet [[Mortlock Vanthampur]] who will lead them to other Vanthampur's who are involved in murdering refugees with Hellrider ancestry.
 
 ## Links
 
+- Main: [[Descent into Avernus]]
+- Related: [[Vanthampur Investigations]]
 - Official Chapter
 - Alexandrian Remix
+- [Lore of the Vanthampur Investigations](https://thealexandrian.net/wordpress/44320/roleplaying-games/remixing-avernus-part-3b-lore-of-the-vanthampur-investigations)
 
 ## Strong Start
 
