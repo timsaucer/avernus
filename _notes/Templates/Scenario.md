@@ -7,18 +7,19 @@ cssclass: []
 
 1-2 sentence overview
 
+## Strong Start
+
+Description of your strong start that you may read to your players.
+
 ## Links
 - Main: [[Descent into Avernus]]
 - [Official Chapter](https://www.dndbeyond.com/sources/bgdia)
 - [Alexandrian Remix](https://thealexandrian.net/wordpress/44214/roleplaying-games/remixing-avernus)
 
-## Strong Start
-
-Description of your strong start.
-
 ## Scenes
 
 - Small scene description
+- If there is more than one scene in this note, then use a `###` level for each one
 
 ## Secrets and Clues
 

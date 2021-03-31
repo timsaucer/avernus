@@ -11,9 +11,9 @@
     {%- endfor -%}
     {%- endif -%}
 </ul>
+{%- endif -%}
 {% capture new_line %}
 {% endcapture %}
-{%- endif -%}
 {% include toc.html html=content %}
 <div class="content">
 
@@ -24,8 +24,17 @@
         {%- if forloop.index > 1 -%}
             {%- assign start = item | split:']]' -%}
 
-            {% assign itempart = start[0] | split: "|" %}
-            {% assign alt_link = itempart[1] %}
+            {%- comment -%}
+                The markdown processor has already converted the | into a </td><td>
+                with some spacing between the sections. Do a little wrangling to get
+                this into an image width.
+            {%- endcomment -%}
+            {% assign itempart = start[0] | split: '</td>' %}
+            {% assign img_width = itempart[1] | replace: '<td>','' | strip %}
+
+            {%- if img_width != nil && img_width != "" -%}
+                {%- assign img_width = 'width="' | append: img_width | append: '"' -%}
+            {%- endif -%}
 
             {% assign itempart = itempart[0] | split: "#" %}
             {%- assign internal_link = itempart[0] -%}
@@ -37,7 +46,7 @@
                 That would also need to be recursively applied, so change the main loop we're doing here.
             {%- endcomment -%}
 
-            {%- assign img_text = '<p><img src="' | append: site.baseurl | append: '/' | append: internal_link | append: '"/></p>' -%}
+            {%- assign img_text = '<p><img src="' | append: site.baseurl | append: '/' | append: internal_link | append: '"' | append: img_width | append: '/></p>' -%}
             {%- assign bracket_link = '![[' | append: start[0] | append: ']]' -%}
             {%- assign replaced_content = replaced_content | replace: bracket_link,img_text -%}
 
