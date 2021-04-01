@@ -32,7 +32,7 @@ Use the description in [[Elfsong Tavern]].
 - Tarina arrives.
 	- Elfsong again.
 	- Alan points her out in exchange for the help they gave.
-	- Tarina briefs the PCs: She’s seen Dead Three cultists around the [[Poisoned Poseidon]] in the Brampton docks.
+	- Tarina briefs the PCs: She’s seen Dead Three cultists around the [[Poisoned Poseidon]] in the Brampton docks, but she's sure that is not their main headquarters.
 - Elfsong changes: See the notes on the offiical page. [The Lay of Elturel](https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#Elfsong)
 
 ## Secrets and Clues
