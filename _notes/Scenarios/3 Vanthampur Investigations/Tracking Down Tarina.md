@@ -50,3 +50,7 @@ See [[Elfsong Tavern]].
 - **[[Alan Alyth]]** - The owner and barkeep.
 - **Falten** - Young human male server.
 - **Yimia** - Young human female server.
+
+## Next Steps
+
+Basically they should get the single clue to go to the [[Poisoned Poseidon]].

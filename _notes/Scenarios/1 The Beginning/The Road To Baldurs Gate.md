@@ -61,6 +61,6 @@ It has been four long days since the city of Elturel suddenly vanished from the 
 - 3d6 gp on the Thugs (total)
 - Basic weapons if anyone wants them (Club and Heavy Crossbow)
 
-## Next Up
+## Next Steps
 
 At this point the group should arrive at Baldur's Gate where they meet [[Flame Zodge]] at the [[Refugee Camp]] and he offers them [[Meeting Zodge]].

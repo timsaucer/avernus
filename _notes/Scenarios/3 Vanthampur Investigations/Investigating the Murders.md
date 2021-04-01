@@ -65,3 +65,9 @@ If the players elect to try to solve the murders without going to talk to Tarina
 
 - 1gp each
 
+## Next Steps
+
+This could go in a couple directions.
+- Talk to [[Trafficking Amrik]] based on what they learn from other refugees.
+- Investigate the [[Poisoned Poseidon]].
+- Go straight to [[Dungeon of the Dead Three]].

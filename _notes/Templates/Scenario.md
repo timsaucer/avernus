@@ -47,3 +47,6 @@ Description of your strong start that you may read to your players.
 
 - Description
 
+## Next Steps
+
+One sentance link to where they are expected to go next.

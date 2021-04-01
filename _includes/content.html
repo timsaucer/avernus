@@ -29,14 +29,14 @@
                 with some spacing between the sections. Do a little wrangling to get
                 this into an image width.
             {%- endcomment -%}
+
             {% assign itempart = start[0] | split: '</td>' %}
             {% assign img_width = itempart[1] | replace: '<td>','' | strip %}
 
             {%- if img_width != nil && img_width != "" -%}
-                {%- assign img_width = 'width="' | append: img_width | append: '"' -%}
+                {%- assign img_width = ' width="' | append: img_width | append: '" ' -%}
             {%- endif -%}
 
-            {% assign itempart = itempart[0] | split: "#" %}
             {%- assign internal_link = itempart[0] -%}
 
             {%- comment -%}

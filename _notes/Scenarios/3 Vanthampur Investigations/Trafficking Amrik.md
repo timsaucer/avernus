@@ -52,3 +52,8 @@ Description of your strong start.
 
 - Description
 
+
+## Level Up
+After dealing with Amrik, move up to **Level 3** (if you haven't done so already).
+
+![[assets/img/level-up-image.jpeg#center]]

@@ -36,8 +36,6 @@ Once they agree to the deal give them additional information:
 -   They should keep him apprised of their progress.
 
 
-The next logical places for the Adventurers to head is either [[Tracking Down Tarina]] to talk to [[Tarina]] or [[Investigating the Murders]] by visiting the refugees or the dumping site for the bodies.
-
 ## Fantastic Locations
 
 See [[Refugee Camp]]
@@ -46,7 +44,11 @@ See [[Refugee Camp]]
 
 - **[[Flame Zodge]]**: Runs the Flaming Fist and offers job to the adventurers.
 
-## Level Up
-After signing the contract with Flame Zodge, move up to Level 2.
+## Next Steps
 
-![[assets/img/level-up-image.jpeg]]
+The next logical places for the Adventurers to head is either [[Tracking Down Tarina]] to talk to [[Tarina]] or [[Investigating the Murders]] by talking to the refugees or visiting the dumping site for the bodies.
+
+## Level Up
+After signing the contract with Flame Zodge, move up to **Level 2**.
+
+![[assets/img/level-up-image.jpeg#center]]

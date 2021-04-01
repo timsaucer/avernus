@@ -22,7 +22,11 @@ Rumors of how the _Poisoned Poseidon_, the pirate ship scourge of the Sword Coas
 
 ## Scenes
 
-![[assets/img/vanthampur/poisoned-poseidon-ship.png|400]]
+![[assets/img/vanthampur/poisoned-poseidon-ship.png#center|400]]
+
+This is primarily a series of combat encounters, but **the players should interrogate at least one person** to get the next clue. If they don't do that, ensure they find the other clues in the notes.
+
+---
 
 ### Main Deck
 - In the picture above the main deck, foc'sle, and fantail aren't shown. It only shows the interior portions of the ship.
@@ -33,10 +37,14 @@ Creatures to contend with:
 - [Iron Consul](https://www.dndbeyond.com/sources/bgdia/creatures#CultistsoftheDeadThree)
 - [3 Fists of Bane](https://www.dndbeyond.com/sources/bgdia/creatures#CultistsoftheDeadThree)
 
+---
+
 ### Cabins off the Main Deck
 - [Master of Souls'](https://www.dndbeyond.com/sources/bgdia/creatures#CultistsoftheDeadThree) quarters in forward cabin
 - One of aft cabins is meeting room that contains **Poseidon Correspondence**.
 - All cabins are empty.
+
+---
 
 ### Lower Deck
 - Mostly stores the untreated skins of slaughtered cattle that are delivered to the tannery
@@ -44,6 +52,8 @@ Creatures to contend with:
 
 Creatures to contend with:
 - 2 [Commoners ](https://www.dndbeyond.com/monsters/commoner) working on cleaning some hides.
+
+---
 
 ### Lower Deck Cabins
 - The aft cabins are used as sleeping quarters for the murder squad.
@@ -54,6 +64,8 @@ Creatures to contend with sleeping in the aft cabins:
 - 2 [Fists of Bane](https://www.dndbeyond.com/sources/bgdia/creatures#CultistsoftheDeadThree)
 - 2 [Necromites](https://www.dndbeyond.com/sources/bgdia/creatures#CultistsoftheDeadThree)
 
+---
+
 ### Hold
 - The forward chamber is a work floor where skins are trimmed.
 - The aft chamber has huge vats. Here skins are sprinkled with urine or soaked in an alkaline solution of wood ash and lime before being folded, hair-side in, and taken down to the Lower Hold.
@@ -61,6 +73,8 @@ Creatures to contend with sleeping in the aft cabins:
 Creatures to contend with:
 - [Reaper of Bhaal](https://www.dndbeyond.com/sources/bgdia/creatures#CultistsoftheDeadThree)
 - 4 [Commoners ](https://www.dndbeyond.com/monsters/commoner) working at the vats
+
+---
 
 ### Lower Hold
 - The lower hold is studded with wooden racks on which treated hides are spread.
@@ -72,6 +86,8 @@ Creatures to contend with:
 Creatures to contend with:
 - [Master of Souls](https://www.dndbeyond.com/sources/bgdia/creatures#CultistsoftheDeadThree) (Remigio) working on the body
 
+---
+
 ### Lower Hold Catacombs
 - The various niches lining the catacomb halls are stacked with urine-soaked skins (they are kept here until the rotting hair has loosened).
 - The four iron doors lead to small cells where prisoners are held to various purpose.
@@ -79,6 +95,8 @@ Creatures to contend with:
 
 Creatures to conted with:
 - [2 Fists of Bane](https://www.dndbeyond.com/sources/bgdia/creatures#CultistsoftheDeadThree) guarding cells 
+
+---
 
 ## Secrets and Clues
 
@@ -90,3 +108,11 @@ Creatures to conted with:
 
 - Nothing of value besides 4d6 gp among all the bodies.
 
+## Next Steps
+
+The next most logical place is to head to the [[Dungeon of the Dead Three]].
+
+## Level Up
+Prior to leaving for the dungeon, move up to **Level 3** (if you haven't done so already).
+
+![[assets/img/level-up-image.jpeg#center]]
