@@ -84,7 +84,6 @@
                 {%- if internal_link -%}
 
                     {%- assign result_notes = site.notes | where: 'title',internal_link -%}
-                    {%- assign result_posts = site.posts | where: 'title',internal_link -%}
                     {%- assign result_pages = site.pages | where: 'title',internal_link -%}
 
                     {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_link -%}

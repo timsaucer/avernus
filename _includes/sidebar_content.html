@@ -1,0 +1,42 @@
+
+{% assign sidebar_content = site.pages | where: 'title','Sidebar' %}
+{% assign sidebar_content = sidebar_content[0].content | markdownify %}
+
+{%- assign internal_link_split = sidebar_content | split: '[[' -%}
+{%- for start_text in internal_link_split -%}
+    {%- if forloop.index == 1 -%}
+        {%- continue -%}
+    {%- endif -%}
+
+    {%- assign internal_link = start_text | split: ']]' -%}
+    {%- assign internal_link = internal_link[0] -%}
+
+    {%- assign result_notes = site.notes | where: 'title',internal_link -%}
+    {%- assign result_pages = site.pages | where: 'title',internal_link -%}
+
+    {%- if result_notes[0] != nil -%}
+        {%- capture updated_link -%}
+            <a href="{{ site.baseurl }}/{{ result_notes[0].url }}">{{internal_link}}</a>
+        {%- endcapture -%}
+    {%- endif -%}
+
+    {%- if result_pages[0] != nil -%}
+        {%- capture updated_link -%}
+            <a href="{{ site.baseurl }}/{{ result_pages[0].url }}">{{internal_link}}</a>
+        {%- endcapture -%}
+    {%- endif -%}
+
+    {%- if internal_link == page.title -%}
+        {%- capture updated_link -%}
+            <b>{{internal_link}}</b>
+        {%- endcapture -%}
+    {%- endif -%}
+
+    {%- if updated_link != nil -%}
+        {%- assign original_text = '[[' | append: internal_link | append: ']]' -%}
+        {%- assign sidebar_content = sidebar_content | replace: original_text,updated_link -%}
+    {%- endif -%}
+
+{%- endfor -%}
+
+{{ sidebar_content }}

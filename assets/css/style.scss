@@ -20,22 +20,22 @@ html {
 body {
     counter-reset: sidenote-counter;
     background-image: url("/avernus/assets/img/parchment-wallpaper.jpg");
+    margin: 0px;
 }
 
 .container {
-    display: flex;    
-    position: relative;         
-    flex-direction: column;     
-    justify-content: center;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
     top: 0px;  
     left: 0px;
     right: 0px;
-    bottom: 0px;  
-    align-items: center;       
-    max-width: 1100px;
+    bottom: 0px;
+    width: 100vw;
+    height: 100vh;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
+    margin: 0px;
 }
 
 .box {
@@ -43,9 +43,18 @@ body {
     border-right: 1px solid #f7f7f7;
     border-bottom: 1px solid #f7f7f7;
     width: 80%;
-    position: absolute;
     top: 0px;
     background-color: #fff;
+    max-width: 1100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-grow: 3;
+}
+
+.sidebar {
+    width: 100%;
+    flex-shrink: 3;
+    overflow-y: auto;
 }
 
 header {
@@ -132,6 +141,13 @@ b, strong {
     font-weight: 600;
 }
 
+.sidebar h1 {
+    font-size: 16px;
+}
+
+.sidebar li {
+    font-size: 12px;
+}
 
 /* Figures, Images, Code, Blockquotes, Tables */
 
@@ -276,6 +292,9 @@ hr {
     flex: 0 0 20px;
     align-self: stretch;
     align-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .site-heading h4 {
@@ -297,7 +316,6 @@ hr {
 }
 
 .avatar {
-    position: absolute;
     top: 40px;
     left: 10px;
 }
@@ -307,7 +325,7 @@ hr {
     border-radius: 50%;
     display: inline-block !important;
     float: none;
-    margin: -35px 5px 0 8px;
+    margin: 5px 5px 0 8px;
     max-width: 100%;
     padding: 1px;
     vertical-align: bottom;
