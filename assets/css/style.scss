@@ -303,16 +303,16 @@ hr {
     font-stretch: normal;
     float: right;
     font-size: 35px;
-    margin-top: 40px;
     margin-bottom: 10px;
     margin-right: 20px;
-    margin-left: 145px;
+    margin-top: 0px;
     font-weight: 800;
     text-shadow: 2px 2px #000;
 }
 
 .site-heading a {
     text-decoration: none;
+    flex-shrink: 3;
 }
 
 .avatar {
@@ -339,6 +339,7 @@ hr {
     box-sizing: border-box;
     height: 120px;
     width: 120px;
+    min-width: 120px;
 }
 
 
@@ -1453,7 +1454,11 @@ width: 30% !important;
 }
 
 .box {
-    width: 80%;
+    width: 90%;
+}
+
+.sidebar {
+    display: none;
 }
 
 label {
