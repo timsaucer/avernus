@@ -24,15 +24,15 @@ Description of your strong start.
 
 ### Level 1
 
-![[dungeon_dead_three_level_1.jpg]]
+![[assets/img/dungeon_dead_three/dungeon_dead_three_level_1.jpg]]
 
 ### Level 2
 
-![[dungeon_dead_three_level_2.jpg]]
+![[assets/img/dungeon_dead_three/dungeon_dead_three_level_2.jpg]]
 
 ### Level 3
 
-![[dungeon_dead_three_level_3.jpg]]
+![[assets/img/dungeon_dead_three/dungeon_dead_three_level_3.jpg]]
 
 ### Area D1
 
