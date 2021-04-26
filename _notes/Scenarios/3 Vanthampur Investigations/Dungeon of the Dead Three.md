@@ -11,18 +11,37 @@ This is a dungeon below a public bath house that is used by the Cult of the Dead
 
 - Main: [[Descent into Avernus]]
 - Related: [[Vanthampur Investigations]]
-- Official Chapter
-- Alexandrian Remix
+- [Official Chapter](https://www.dndbeyond.com/sources/bgdia/a-tale-of-two-cities#DungeonoftheDeadThree)
+- [Alexandrian Remix: Design Notes](https://thealexandrian.net/wordpress/44434/roleplaying-games/remixing-avernus-part-3f-a-dungeon-of-the-dead-three-design-notes)
+- [Alexandrian Remix: Dungeon Key](https://thealexandrian.net/wordpress/44440/roleplaying-games/remixing-avernus-part-3f-b-dungeon-of-the-dead-three-revised-key)
 - [Lore of the Vanthampur Investigations](https://thealexandrian.net/wordpress/44320/roleplaying-games/remixing-avernus-part-3b-lore-of-the-vanthampur-investigations)
 
 ## Strong Start
 
 Description of your strong start.
 
-## Scenes
+## Map
 
-- Small scene description
+### Level 1
 
+![[dungeon_dead_three_level_1.jpg]]
+
+### Level 2
+
+![[dungeon_dead_three_level_2.jpg]]
+
+### Level 3
+
+![[dungeon_dead_three_level_3.jpg]]
+
+### Area D1
+
+- Description
+
+### Area D2
+
+- Description
+- 
 ## Secrets and Clues
 
 - **Questioning Mortlock**: In exchange for sparing his life, Mortlock will betray [[Trafficking Amrik]] and tell the adventurers that Amrik was giving the Cult of the Dead Three the names of who to target.

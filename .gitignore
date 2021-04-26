@@ -5,4 +5,5 @@ _site
 vendor
 .DS_Store
 .obsidian/workspace
+local_working_directory
 
